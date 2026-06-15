@@ -2,6 +2,7 @@
 *.mp4
 *.mkv
 *.webm
+videos/
 
 # Intermediate working frames (the clean, published ones live in docs/img/)
 frames/
