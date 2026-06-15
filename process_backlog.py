@@ -28,6 +28,7 @@ import glob
 import time
 import random
 import shutil
+import datetime
 import subprocess
 
 # ---------------------------------------------------------------------------
@@ -97,6 +98,37 @@ def transcript_exists(shortcode):
     return bool(glob.glob(os.path.join(TRANSCRIPTS_DIR, f"{shortcode}.srt")))
 
 
+def fmt_duration(seconds):
+    seconds = int(seconds)
+    h, rem = divmod(seconds, 3600)
+    m, s = divmod(rem, 60)
+    if h:
+        return f"{h}h{m:02d}m{s:02d}s"
+    if m:
+        return f"{m}m{s:02d}s"
+    return f"{s}s"
+
+
+def mark_backlog(shortcode, status_text):
+    """Update the Status cell of the backlog row whose URL contains `shortcode`."""
+    if not os.path.exists(BACKLOG_FILE):
+        return
+    with open(BACKLOG_FILE, encoding="utf-8") as f:
+        lines = f.readlines()
+    for idx, line in enumerate(lines):
+        if shortcode in line and line.lstrip().startswith("|"):
+            parts = line.rstrip("\n").split("|")
+            # Row shape: | # | url | challenge | status |  -> status is the last real cell.
+            if len(parts) >= 5:
+                if parts[-2].strip() == status_text:
+                    return  # already set
+                parts[-2] = f" {status_text} "
+                lines[idx] = "|".join(parts) + "\n"
+                with open(BACKLOG_FILE, "w", encoding="utf-8") as f:
+                    f.writelines(lines)
+            return
+
+
 def download(url, shortcode, ytdlp):
     """Download the reel to videos/<shortcode>.mp4. Returns True on success."""
     if video_path(shortcode):
@@ -157,6 +189,9 @@ def main():
     print(f"Processing {total} reel(s). Videos -> {VIDEOS_DIR}, transcripts -> {TRANSCRIPTS_DIR}\n")
 
     done, skipped, failed = [], [], []
+    durations = []           # seconds per reel that actually did work (for ETA)
+    run_start = time.monotonic()
+
     for i, url in enumerate(urls, 1):
         sc = shortcode_of(url)
         print(f"[{i}/{total}] {url}")
@@ -166,22 +201,28 @@ def main():
             continue
 
         if transcript_exists(sc):
-            print("  already finished (transcript exists), skipping\n")
+            print("  already finished (transcript exists), skipping")
+            mark_backlog(sc, "📝 Transcribed")
             skipped.append(sc)
+            print_progress(i, total, durations, run_start)
             continue
 
+        item_start = time.monotonic()
         newly_downloaded = not video_path(sc)
         if not download(url, sc, ytdlp):
             failed.append(sc)
-            print()
+            print_progress(i, total, durations, run_start)
             continue
         if not transcribe(sc, whisper):
             failed.append(sc)
-            print()
+            print_progress(i, total, durations, run_start)
             continue
 
+        durations.append(time.monotonic() - item_start)
+        mark_backlog(sc, "📝 Transcribed")
         done.append(sc)
-        print("  done\n")
+        print(f"  done in {fmt_duration(durations[-1])}")
+        print_progress(i, total, durations, run_start)
 
         # Polite pause only after an actual network download, and not after the last item.
         if newly_downloaded and i < total:
@@ -190,9 +231,25 @@ def main():
             time.sleep(delay)
 
     print("=" * 50)
-    print(f"Finished. processed={len(done)}  skipped={len(skipped)}  failed={len(failed)}")
+    print(f"Finished in {fmt_duration(time.monotonic() - run_start)}. "
+          f"processed={len(done)}  skipped={len(skipped)}  failed={len(failed)}")
     if failed:
         print("Failed shortcodes:", ", ".join(failed))
+
+
+def print_progress(i, total, durations, run_start):
+    """Print a progress line with a running ETA based on speed so far."""
+    elapsed = time.monotonic() - run_start
+    remaining = total - i
+    line = f"  progress: {i}/{total} done, {remaining} left | elapsed {fmt_duration(elapsed)}"
+    if durations and remaining > 0:
+        avg = sum(durations) / len(durations)
+        eta_seconds = avg * remaining
+        finish = datetime.datetime.now() + datetime.timedelta(seconds=eta_seconds)
+        line += (f" | avg {fmt_duration(avg)}/reel"
+                 f" | ~{fmt_duration(eta_seconds)} left"
+                 f" | est. finish {finish.strftime('%H:%M')}")
+    print(line + "\n")
 
 
 if __name__ == "__main__":
