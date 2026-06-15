@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz — Soluna Quizzes</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="player-body">
+  <header class="player-header">
+    <a class="back-link" href="index.html">← All quizzes</a>
+    <h1 id="quiz-title">Quiz</h1>
+    <p id="progress" class="progress"></p>
+  </header>
+
+  <main id="stage" class="stage">
+    <div id="error" class="error" hidden></div>
+
+    <figure class="visual">
+      <img id="question-image" alt="Quiz visual" />
+    </figure>
+
+    <p id="prompt" class="prompt"></p>
+
+    <div class="answer-area">
+      <button id="reveal-btn" class="btn btn-reveal" type="button">
+        Show answer <span class="key-hint">(Space)</span>
+      </button>
+      <div id="answer" class="answer" hidden>
+        <span id="answer-text" class="answer-text"></span>
+        <span id="answer-country" class="answer-country"></span>
+      </div>
+    </div>
+  </main>
+
+  <nav class="nav-bar">
+    <button id="prev-btn" class="btn btn-nav" type="button" aria-label="Previous question">
+      <span aria-hidden="true">←</span> Prev
+    </button>
+    <button id="next-btn" class="btn btn-nav" type="button" aria-label="Next question">
+      Next <span aria-hidden="true">→</span>
+    </button>
+  </nav>
+
+  <script src="js/player.js"></script>
+</body>
+</html>

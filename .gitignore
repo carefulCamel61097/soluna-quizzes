@@ -1,0 +1,11 @@
+# Raw source media — large, and not for republishing
+*.mp4
+*.mkv
+*.webm
+
+# Intermediate working frames (the clean, published ones live in docs/img/)
+frames/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db

@@ -1,0 +1,12 @@
+{
+  "quizzes": [
+    {
+      "id": "satellite-cities",
+      "title": "Name the City from its Satellite Image",
+      "description": "Identify 10 cities around the world from satellite views.",
+      "count": 10,
+      "thumb": "img/satellite-cities/10.jpg",
+      "source": "solunaaaa16"
+    }
+  ]
+}

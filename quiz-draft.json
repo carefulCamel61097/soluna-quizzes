@@ -1,0 +1,113 @@
+{
+  "quizId": "solunaaaa16-satellite-cities",
+  "title": "Name the City from its Satellite Image",
+  "format": "image-to-answer",
+  "source": {
+    "creator": "solunaaaa16 (Instagram)",
+    "file": "Video by solunaaaa16 [DYjqc1hh0SZ].mp4",
+    "extractedFrom": "Whisper transcript + ffmpeg frames",
+    "note": "Private use draft; do not republish the original creator's footage."
+  },
+  "questions": [
+    {
+      "n": 1,
+      "answer": "St. Petersburg",
+      "country": "Russia",
+      "image": "frames/01_stpetersburg.jpg",
+      "windowShown": "0:06-0:22",
+      "hintsFromVideo": ["It's European", "Looks Russian with water to the west"],
+      "confidence": "high",
+      "review": null
+    },
+    {
+      "n": 2,
+      "answer": "Cape Town",
+      "country": "South Africa",
+      "image": "frames/02_capetown.jpg",
+      "windowShown": "0:25-0:33",
+      "hintsFromVideo": ["Table Mountain"],
+      "confidence": "high",
+      "review": "Minor: a sliver of the presenter's shoulder is at the top edge of the crop. Could re-pick a cleaner frame."
+    },
+    {
+      "n": 3,
+      "answer": "San Francisco",
+      "country": "USA",
+      "image": "frames/03_sanfrancisco_cropped.jpg",
+      "windowShown": "~0:40 (pre-reveal frame)",
+      "hintsFromVideo": ["You can see the Golden Gate Bridge"],
+      "confidence": "high",
+      "review": "Resolved: used clean pre-reveal frame at 0:40 (before the answer caption appears at 0:42), cropped to the satellite band."
+    },
+    {
+      "n": 4,
+      "answer": "Dublin",
+      "country": "Ireland",
+      "image": "frames/04_dublin.jpg",
+      "windowShown": "0:50-1:12",
+      "hintsFromVideo": ["Lots of parks", "Looks kind of British", "Water to the east", "On the ocean with a big port"],
+      "confidence": "high",
+      "review": "Layout differs: satellite shown as a centered card over the presenter shot, not a clean split. Image is recognizable but a tighter crop would help."
+    },
+    {
+      "n": 5,
+      "answer": "Copenhagen",
+      "country": "Denmark",
+      "image": "frames/05_copenhagen.jpg",
+      "windowShown": "1:20-1:43",
+      "hintsFromVideo": ["Water on both sides with a river through the middle", "Looks like Amsterdam but isn't", "Bridge/tunnel going to Sweden (Oresund)"],
+      "confidence": "high",
+      "review": "Centered-card layout again; presenter visible at edges. Recognizable."
+    },
+    {
+      "n": 6,
+      "answer": "Bangkok",
+      "country": "Thailand",
+      "image": "frames/06_bangkok_cropped.jpg",
+      "windowShown": "~1:50",
+      "hintsFromVideo": ["You can see all the paddies (rice paddies)"],
+      "confidence": "high",
+      "review": "Resolved: cropped to the satellite band (the 'That's Bangkok' caption sat in the presenter half, so cropping removed it cleanly)."
+    },
+    {
+      "n": 7,
+      "answer": "Rio de Janeiro",
+      "country": "Brazil",
+      "image": "frames/07_rio.jpg",
+      "windowShown": "~1:55",
+      "hintsFromVideo": ["You can see Copacabana Beach"],
+      "confidence": "high",
+      "review": "Clean full-frame satellite. Has a small 'Google Maps' watermark at the bottom edge."
+    },
+    {
+      "n": 8,
+      "answer": "Tunis",
+      "country": "Tunisia",
+      "image": "frames/08_tunis.jpg",
+      "windowShown": "2:05-2:20",
+      "hintsFromVideo": ["Desert city", "Looks Arabic-ish", "A wadi to the southwest", "Ocean to the east"],
+      "confidence": "high",
+      "review": null
+    },
+    {
+      "n": 9,
+      "answer": "Manila",
+      "country": "Philippines",
+      "image": "frames/09_manila.jpg",
+      "windowShown": "2:32-2:43",
+      "hintsFromVideo": ["Water to the west", "Very dense", "Looks Southeast Asian"],
+      "confidence": "high",
+      "review": null
+    },
+    {
+      "n": 10,
+      "answer": "Venice",
+      "country": "Italy",
+      "image": "frames/10_venice.jpg",
+      "windowShown": "~2:52",
+      "hintsFromVideo": ["An easy last one"],
+      "confidence": "high",
+      "review": null
+    }
+  ]
+}

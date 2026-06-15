@@ -1,0 +1,18 @@
+{
+  "id": "satellite-cities",
+  "title": "Name the City from its Satellite Image",
+  "source": "Quiz by solunaaaa16 (Instagram)",
+  "prompt": "Which city is shown in this satellite image?",
+  "questions": [
+    { "image": "img/satellite-cities/01.jpg", "answer": "St. Petersburg", "country": "Russia" },
+    { "image": "img/satellite-cities/02.jpg", "answer": "Cape Town", "country": "South Africa" },
+    { "image": "img/satellite-cities/03.jpg", "answer": "San Francisco", "country": "USA" },
+    { "image": "img/satellite-cities/04.jpg", "answer": "Dublin", "country": "Ireland" },
+    { "image": "img/satellite-cities/05.jpg", "answer": "Copenhagen", "country": "Denmark" },
+    { "image": "img/satellite-cities/06.jpg", "answer": "Bangkok", "country": "Thailand" },
+    { "image": "img/satellite-cities/07.jpg", "answer": "Rio de Janeiro", "country": "Brazil" },
+    { "image": "img/satellite-cities/08.jpg", "answer": "Tunis", "country": "Tunisia" },
+    { "image": "img/satellite-cities/09.jpg", "answer": "Manila", "country": "Philippines" },
+    { "image": "img/satellite-cities/10.jpg", "answer": "Venice", "country": "Italy" }
+  ]
+}

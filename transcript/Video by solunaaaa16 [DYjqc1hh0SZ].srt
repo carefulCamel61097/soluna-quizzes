@@ -1,0 +1,236 @@
+1
+00:00:00,000 --> 00:00:03,360
+Name the 10 cities from their satellite images.
+
+2
+00:00:03,360 --> 00:00:05,160
+Three strikes and you lose.
+
+3
+00:00:08,680 --> 00:00:10,140
+Okay, it's European.
+
+4
+00:00:16,120 --> 00:00:20,040
+Looks Russian with water west.
+
+5
+00:00:22,440 --> 00:00:23,760
+St. Petersburg?
+
+6
+00:00:23,760 --> 00:00:24,600
+That's correct.
+
+7
+00:00:24,600 --> 00:00:25,440
+Okay.
+
+8
+00:00:31,000 --> 00:00:34,000
+That's just Table Mountain, Cape Town.
+
+9
+00:00:34,000 --> 00:00:35,000
+Correct.
+
+10
+00:00:40,000 --> 00:00:41,000
+Number three?
+
+11
+00:00:41,000 --> 00:00:42,000
+San Francisco.
+
+12
+00:00:42,000 --> 00:00:43,000
+You can see the Golden Gate Bridge.
+
+13
+00:00:43,000 --> 00:00:44,000
+Yeah.
+
+14
+00:00:51,000 --> 00:00:53,000
+Wow, there's a lot of parks.
+
+15
+00:00:54,000 --> 00:00:56,000
+Looks kind of British.
+
+16
+00:00:56,000 --> 00:00:58,000
+Water east.
+
+17
+00:00:59,000 --> 00:01:00,000
+Is it Newcastle?
+
+18
+00:01:00,000 --> 00:01:02,000
+It is not Newcastle.
+
+19
+00:01:02,000 --> 00:01:06,000
+Water east, that's right on the ocean with a big port.
+
+20
+00:01:12,000 --> 00:01:13,000
+Oh, is it Dublin?
+
+21
+00:01:13,000 --> 00:01:14,000
+Yes.
+
+22
+00:01:14,000 --> 00:01:15,000
+Okay.
+
+23
+00:01:17,000 --> 00:01:23,000
+There's water on both sides with a river coming through the middle.
+
+24
+00:01:29,000 --> 00:01:34,000
+Looks European.
+
+25
+00:01:37,000 --> 00:01:38,000
+Why does it look so...
+
+26
+00:01:38,000 --> 00:01:41,000
+Okay, it kind of looks like Amsterdam, but it's not Amsterdam.
+
+27
+00:01:41,000 --> 00:01:42,000
+Okay.
+
+28
+00:01:42,000 --> 00:01:43,000
+Oh, I see the bridge going to...
+
+29
+00:01:43,000 --> 00:01:44,000
+Is it Copenhagen?
+
+30
+00:01:44,000 --> 00:01:45,000
+Yes.
+
+31
+00:01:45,000 --> 00:01:48,000
+I see the little tunnel bridge thing that's going to Sweden.
+
+32
+00:01:49,000 --> 00:01:50,000
+That's Bangkok.
+
+33
+00:01:50,000 --> 00:01:51,000
+Yes.
+
+34
+00:01:51,000 --> 00:01:52,000
+You can see all the patties.
+
+35
+00:01:52,000 --> 00:01:54,000
+Okay, next one.
+
+36
+00:01:56,000 --> 00:01:57,000
+Rio de Janeiro.
+
+37
+00:01:57,000 --> 00:01:59,000
+You can see the Copacabana Beach.
+
+38
+00:02:03,000 --> 00:02:05,000
+Okay, this one is number eight.
+
+39
+00:02:07,000 --> 00:02:09,000
+Desert City.
+
+40
+00:02:10,000 --> 00:02:12,000
+Looks like Arabic-ish.
+
+41
+00:02:14,000 --> 00:02:16,000
+Some sort of wadi on the southwest.
+
+42
+00:02:16,000 --> 00:02:18,000
+Ocean on the east.
+
+43
+00:02:19,000 --> 00:02:20,000
+Not many options this could be.
+
+44
+00:02:20,000 --> 00:02:21,000
+Tunis?
+
+45
+00:02:21,000 --> 00:02:22,000
+Yeah.
+
+46
+00:02:22,000 --> 00:02:23,000
+Okay, Tunis-Tunisia.
+
+47
+00:02:23,000 --> 00:02:26,000
+I was going to say, you've been to Tunisia, so you should know that one.
+
+48
+00:02:28,000 --> 00:02:30,000
+Next one, number nine.
+
+49
+00:02:32,000 --> 00:02:34,000
+Water west, very dense.
+
+50
+00:02:36,000 --> 00:02:38,000
+Looks Southeast Asian.
+
+51
+00:02:39,000 --> 00:02:41,000
+Wow, it's so dense.
+
+52
+00:02:43,000 --> 00:02:44,000
+Is it Manila?
+
+53
+00:02:44,000 --> 00:02:45,000
+Yeah.
+
+54
+00:02:45,000 --> 00:02:46,000
+Okay.
+
+55
+00:02:47,000 --> 00:02:48,000
+Ooh, the pressure.
+
+56
+00:02:48,000 --> 00:02:51,000
+Yeah, okay, so here's the last one.
+
+57
+00:02:53,000 --> 00:02:54,000
+That's Venice.
+
+58
+00:02:54,000 --> 00:02:56,000
+Yeah, that was an easy last one.
+
+59
+00:02:57,000 --> 00:02:58,000
+Okay.
+
