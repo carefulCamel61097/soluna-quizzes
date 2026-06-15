@@ -45,8 +45,31 @@
     els.prevBtn.addEventListener('click', () => go(-1));
     els.nextBtn.addEventListener('click', () => go(1));
     document.addEventListener('keydown', onKey);
+    enableSwipe(document.getElementById('stage'));
 
     render();
+  }
+
+  // Horizontal swipe on touch screens navigates between questions.
+  function enableSwipe(el) {
+    if (!el) return;
+    let startX = 0, startY = 0, tracking = false;
+    el.addEventListener('touchstart', (e) => {
+      if (e.touches.length !== 1) return;
+      startX = e.touches[0].clientX;
+      startY = e.touches[0].clientY;
+      tracking = true;
+    }, { passive: true });
+    el.addEventListener('touchend', (e) => {
+      if (!tracking) return;
+      tracking = false;
+      const dx = e.changedTouches[0].clientX - startX;
+      const dy = e.changedTouches[0].clientY - startY;
+      // Require a clearly horizontal swipe so vertical scrolling isn't hijacked.
+      if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy) * 1.5) {
+        go(dx < 0 ? 1 : -1);
+      }
+    }, { passive: true });
   }
 
   function render() {

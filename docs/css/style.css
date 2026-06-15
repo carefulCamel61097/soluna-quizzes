@@ -47,23 +47,67 @@ a:hover { color: var(--accent-hover); }
   gap: 1rem;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
 }
-.quiz-card { margin: 0; }
-.quiz-card-link {
-  display: block;
+.quiz-card {
+  margin: 0;
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius);
   overflow: hidden;
-  color: inherit;
+  display: flex;
+  flex-direction: column;
   transition: transform .12s ease, border-color .12s ease;
 }
-.quiz-card-link:hover { transform: translateY(-2px); border-color: var(--accent); color: inherit; }
+.quiz-card:hover { transform: translateY(-2px); border-color: var(--accent); }
+.quiz-card-link {
+  display: block;
+  color: inherit;
+  flex: 1;
+}
+.quiz-card-link:hover { color: inherit; }
 .quiz-card-thumb {
+  position: relative;
   height: 150px;
   background-size: cover;
   background-position: center;
   background-color: var(--surface-2);
 }
+.done-badge {
+  position: absolute;
+  top: .55rem;
+  right: .55rem;
+  background: #1f7a4d;
+  color: #fff;
+  font-size: .72rem;
+  font-weight: 700;
+  padding: .2rem .5rem;
+  border-radius: 999px;
+  opacity: 0;
+  transition: opacity .12s ease;
+}
+.quiz-card.is-done .done-badge { opacity: 1; }
+.quiz-card.is-done .quiz-card-thumb { filter: saturate(.6) brightness(.85); }
+
+.quiz-card-marks {
+  display: flex;
+  border-top: 1px solid var(--border);
+}
+.mark-btn {
+  flex: 1;
+  font: inherit;
+  font-size: .85rem;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  color: var(--muted);
+  padding: .7rem .5rem;
+  min-height: 44px;
+  transition: background .12s ease, color .12s ease;
+}
+.mark-btn + .mark-btn { border-left: 1px solid var(--border); }
+.mark-btn:hover { background: var(--surface-2); color: var(--text); }
+.mark-icon { font-size: 1rem; }
+.mark-fav.on { color: #ffce4f; }
+.mark-done.on { color: #4fd08a; }
 .quiz-card-body { padding: .9rem 1rem 1.1rem; }
 .quiz-card-title { margin: 0 0 .35rem; font-size: 1.1rem; }
 .quiz-card-desc { margin: 0 0 .6rem; color: var(--muted); font-size: .9rem; }
