@@ -15,6 +15,22 @@
       "count": 11,
       "thumb": "img/satellite-cities-2/11.jpg",
       "source": "solunaaaa16"
+    },
+    {
+      "id": "satellite-cities-3",
+      "title": "Name the City from its Satellite Image (Vol. 3)",
+      "description": "Ten more world cities from satellite views — Barcelona to Kampala.",
+      "count": 10,
+      "thumb": "img/satellite-cities-3/08.jpg",
+      "source": "solunaaaa16"
+    },
+    {
+      "id": "us-cities",
+      "title": "Name the US City from its Satellite Image",
+      "description": "Identify 11 cities across the United States from satellite views.",
+      "count": 11,
+      "thumb": "img/us-cities/11.jpg",
+      "source": "solunaaaa16"
     }
   ]
 }

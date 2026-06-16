@@ -1,0 +1,18 @@
+{
+  "id": "satellite-cities-3",
+  "title": "Name the City from its Satellite Image (Vol. 3)",
+  "source": "Quiz by solunaaaa16 (Instagram)",
+  "prompt": "Which city is shown in this satellite image?",
+  "questions": [
+    { "image": "img/satellite-cities-3/01.jpg", "answer": "Barcelona", "country": "Spain" },
+    { "image": "img/satellite-cities-3/02.jpg", "answer": "Hong Kong", "country": "China" },
+    { "image": "img/satellite-cities-3/03.jpg", "answer": "Mecca", "country": "Saudi Arabia" },
+    { "image": "img/satellite-cities-3/04.jpg", "answer": "Brasília", "country": "Brazil" },
+    { "image": "img/satellite-cities-3/05.jpg", "answer": "Chicago", "country": "USA" },
+    { "image": "img/satellite-cities-3/06.jpg", "answer": "Bordeaux", "country": "France" },
+    { "image": "img/satellite-cities-3/07.jpg", "answer": "Ulaanbaatar", "country": "Mongolia" },
+    { "image": "img/satellite-cities-3/08.jpg", "answer": "Dubai", "country": "United Arab Emirates" },
+    { "image": "img/satellite-cities-3/09.jpg", "answer": "Port-au-Prince", "country": "Haiti" },
+    { "image": "img/satellite-cities-3/10.jpg", "answer": "Kampala", "country": "Uganda" }
+  ]
+}

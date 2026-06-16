@@ -1,0 +1,19 @@
+{
+  "id": "us-cities",
+  "title": "Name the US City from its Satellite Image",
+  "source": "Quiz by solunaaaa16 (Instagram)",
+  "prompt": "Which US city is shown in this satellite image?",
+  "questions": [
+    { "image": "img/us-cities/01.jpg", "answer": "New Orleans", "country": "Louisiana" },
+    { "image": "img/us-cities/02.jpg", "answer": "Las Vegas", "country": "Nevada" },
+    { "image": "img/us-cities/03.jpg", "answer": "St. Louis", "country": "Missouri" },
+    { "image": "img/us-cities/04.jpg", "answer": "Baltimore", "country": "Maryland" },
+    { "image": "img/us-cities/05.jpg", "answer": "Atlanta", "country": "Georgia" },
+    { "image": "img/us-cities/06.jpg", "answer": "Indianapolis", "country": "Indiana" },
+    { "image": "img/us-cities/07.jpg", "answer": "Houston", "country": "Texas" },
+    { "image": "img/us-cities/08.jpg", "answer": "Cincinnati", "country": "Ohio" },
+    { "image": "img/us-cities/09.jpg", "answer": "Portland", "country": "Oregon" },
+    { "image": "img/us-cities/10.jpg", "answer": "El Paso", "country": "Texas" },
+    { "image": "img/us-cities/11.jpg", "answer": "San Diego", "country": "California" }
+  ]
+}
