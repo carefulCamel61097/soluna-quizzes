@@ -1,0 +1,18 @@
+{
+  "id": "country-outlines-2",
+  "title": "Name the Country from its Outline (Vol. 2)",
+  "source": "Quiz by solunaaaa16 (Instagram)",
+  "prompt": "Which country has this outline?",
+  "questions": [
+    { "image": "img/country-outlines-2/01.jpg", "answer": "Guinea-Bissau" },
+    { "image": "img/country-outlines-2/02.jpg", "answer": "Kyrgyzstan" },
+    { "image": "img/country-outlines-2/03.jpg", "answer": "Paraguay" },
+    { "image": "img/country-outlines-2/04.jpg", "answer": "Solomon Islands" },
+    { "image": "img/country-outlines-2/05.jpg", "answer": "South Sudan" },
+    { "image": "img/country-outlines-2/06.jpg", "answer": "Luxembourg" },
+    { "image": "img/country-outlines-2/07.jpg", "answer": "Trinidad and Tobago" },
+    { "image": "img/country-outlines-2/08.jpg", "answer": "Albania" },
+    { "image": "img/country-outlines-2/09.jpg", "answer": "North Korea" },
+    { "image": "img/country-outlines-2/10.jpg", "answer": "Jamaica" }
+  ]
+}

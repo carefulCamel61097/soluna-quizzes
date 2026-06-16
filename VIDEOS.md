@@ -11,6 +11,7 @@ Tracking which solunaaaa16 reels have been turned into quizzes.
 | City from satellite image (world, vol. 3) | https://www.instagram.com/reel/DY4jIpdB18L/ | `satellite-cities-3` | ✅ Done |
 | US city from satellite image | https://www.instagram.com/reel/DZXUiTHh_d3/ | `us-cities` | ✅ Done |
 | Country from its outline | https://www.instagram.com/reel/DYHtPl4h5I4/ | `country-outlines` | ✅ Done |
+| Country from its outline (vol. 2) | https://www.instagram.com/reel/DYcusjBh8xW/ | `country-outlines-2` | ✅ Done |
 
 ## Backlog
 
@@ -43,7 +44,7 @@ advance ⬜ Not done → 📝 Transcribed → ✅ Done (published quiz).
 | 22 | https://www.instagram.com/reel/DY7K6G9h7UQ/ | Country from its flag | Flags | 📝 Transcribed |
 | 23 | https://www.instagram.com/reel/DYw0j3eh892/ | Brand from its logo | Brands | 📝 Transcribed |
 | 24 | https://www.instagram.com/reel/DYuLzr8hohR/ | Language from a text sample | Language | 📝 Transcribed |
-| 25 | https://www.instagram.com/reel/DYcusjBh8xW/ | Country from its outline | Geography | 📝 Transcribed |
+| 25 | https://www.instagram.com/reel/DYcusjBh8xW/ | Country from its outline | Geography | ✅ Done |
 | 26 | https://www.instagram.com/reel/DYZ2MYoBKd7/ | Solar System feature from image | Science | 📝 Transcribed |
 | 27 | https://www.instagram.com/reel/DYXL-jihcV1/ | Country from its flag | Flags | 📝 Transcribed |
 | 28 | https://www.instagram.com/reel/DYUiGkxBTeS/ | Island from satellite image | Geography | 📝 Transcribed |
