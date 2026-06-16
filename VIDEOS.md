@@ -10,6 +10,7 @@ Tracking which solunaaaa16 reels have been turned into quizzes.
 | City from satellite image (world, vol. 2) | https://www.instagram.com/reel/DZm8GZwhfWQ/ | `satellite-cities-2` | ✅ Done |
 | City from satellite image (world, vol. 3) | https://www.instagram.com/reel/DY4jIpdB18L/ | `satellite-cities-3` | ✅ Done |
 | US city from satellite image | https://www.instagram.com/reel/DZXUiTHh_d3/ | `us-cities` | ✅ Done |
+| Country from its outline | https://www.instagram.com/reel/DYHtPl4h5I4/ | `country-outlines` | ✅ Done |
 
 ## Backlog
 
@@ -25,7 +26,7 @@ advance ⬜ Not done → 📝 Transcribed → ✅ Done (published quiz).
 | 5 | https://www.instagram.com/reel/DYpEoEnBvvk/ | Famous historical figure from portrait | History | 📝 Transcribed |
 | 6 | https://www.instagram.com/reel/DZCbQKchAl2/ | German city from satellite image | Geography | 📝 Transcribed |
 | 7 | https://www.instagram.com/reel/DZXUiTHh_d3/ | US city from satellite image | Geography | ✅ Done |
-| 8 | https://www.instagram.com/reel/DYHtPl4h5I4/ | Country from its outline | Geography | 📝 Transcribed |
+| 8 | https://www.instagram.com/reel/DYHtPl4h5I4/ | Country from its outline | Geography | ✅ Done |
 | 9 | https://www.instagram.com/reel/DZAVkZfBXdp/ | Historical figure from photo/portrait | History | 📝 Transcribed |
 | 10 | https://www.instagram.com/reel/DY17RmdBYq7/ | Locality (city/region) from its flag | Flags | 📝 Transcribed |
 | 11 | https://www.instagram.com/reel/DYmP_3BhCkB/ | Country from rotated outline | Geography | 📝 Transcribed |

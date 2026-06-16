@@ -31,6 +31,14 @@
       "count": 11,
       "thumb": "img/us-cities/11.jpg",
       "source": "solunaaaa16"
+    },
+    {
+      "id": "country-outlines",
+      "title": "Name the Country from its Outline",
+      "description": "Identify 10 countries from their outline shapes.",
+      "count": 10,
+      "thumb": "img/country-outlines/10.jpg",
+      "source": "solunaaaa16"
     }
   ]
 }

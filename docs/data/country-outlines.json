@@ -1,0 +1,18 @@
+{
+  "id": "country-outlines",
+  "title": "Name the Country from its Outline",
+  "source": "Quiz by solunaaaa16 (Instagram)",
+  "prompt": "Which country has this outline?",
+  "questions": [
+    { "image": "img/country-outlines/01.jpg", "answer": "Guatemala" },
+    { "image": "img/country-outlines/02.jpg", "answer": "Chad" },
+    { "image": "img/country-outlines/03.jpg", "answer": "Kiribati" },
+    { "image": "img/country-outlines/04.jpg", "answer": "Bosnia and Herzegovina" },
+    { "image": "img/country-outlines/05.jpg", "answer": "Bulgaria" },
+    { "image": "img/country-outlines/06.jpg", "answer": "Lebanon" },
+    { "image": "img/country-outlines/07.jpg", "answer": "Mali" },
+    { "image": "img/country-outlines/08.jpg", "answer": "Estonia" },
+    { "image": "img/country-outlines/09.jpg", "answer": "Bolivia" },
+    { "image": "img/country-outlines/10.jpg", "answer": "Saudi Arabia" }
+  ]
+}
