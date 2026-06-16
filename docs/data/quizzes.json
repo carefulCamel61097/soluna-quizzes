@@ -7,6 +7,14 @@
       "count": 10,
       "thumb": "img/satellite-cities/10.jpg",
       "source": "solunaaaa16"
+    },
+    {
+      "id": "satellite-cities-2",
+      "title": "Name the City from its Satellite Image (Vol. 2)",
+      "description": "Identify 11 more cities around the world from satellite views.",
+      "count": 11,
+      "thumb": "img/satellite-cities-2/11.jpg",
+      "source": "solunaaaa16"
     }
   ]
 }

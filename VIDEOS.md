@@ -7,6 +7,7 @@ Tracking which solunaaaa16 reels have been turned into quizzes.
 | Challenge | Instagram reel | Quiz id | Status |
 |-----------|----------------|---------|--------|
 | Name the 10 cities from their satellite images | https://www.instagram.com/reel/DYjqc1hh0SZ/ | `satellite-cities` | ✅ Done |
+| City from satellite image (world, vol. 2) | https://www.instagram.com/reel/DZm8GZwhfWQ/ | `satellite-cities-2` | ✅ Done |
 
 ## Backlog
 
@@ -26,7 +27,7 @@ advance ⬜ Not done → 📝 Transcribed → ✅ Done (published quiz).
 | 9 | https://www.instagram.com/reel/DZAVkZfBXdp/ | Historical figure from photo/portrait | History | 📝 Transcribed |
 | 10 | https://www.instagram.com/reel/DY17RmdBYq7/ | Locality (city/region) from its flag | Flags | 📝 Transcribed |
 | 11 | https://www.instagram.com/reel/DYmP_3BhCkB/ | Country from rotated outline | Geography | 📝 Transcribed |
-| 12 | https://www.instagram.com/reel/DZm8GZwhfWQ/ | City from satellite image (world) | Geography | 📝 Transcribed |
+| 12 | https://www.instagram.com/reel/DZm8GZwhfWQ/ | City from satellite image (world) | Geography | ✅ Done |
 | 13 | https://www.instagram.com/reel/DZkPfr-htHp/ | Historical artifact from a close-up crop | History | 📝 Transcribed |
 | 14 | https://www.instagram.com/reel/DZiA5SSBIem/ | World leader from title + reign dates (text only) | History | 📝 Transcribed |
 | 15 | https://www.instagram.com/reel/DZfFkp-BrpX/ | Brand from its logo | Brands | 📝 Transcribed |

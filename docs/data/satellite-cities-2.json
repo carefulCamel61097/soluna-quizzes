@@ -1,0 +1,19 @@
+{
+  "id": "satellite-cities-2",
+  "title": "Name the City from its Satellite Image (Vol. 2)",
+  "source": "Quiz by solunaaaa16 (Instagram)",
+  "prompt": "Which city is shown in this satellite image?",
+  "questions": [
+    { "image": "img/satellite-cities-2/01.jpg", "answer": "Oslo", "country": "Norway" },
+    { "image": "img/satellite-cities-2/02.jpg", "answer": "Birmingham", "country": "United Kingdom" },
+    { "image": "img/satellite-cities-2/03.jpg", "answer": "Rome", "country": "Italy" },
+    { "image": "img/satellite-cities-2/04.jpg", "answer": "Accra", "country": "Ghana" },
+    { "image": "img/satellite-cities-2/05.jpg", "answer": "Lima", "country": "Peru" },
+    { "image": "img/satellite-cities-2/06.jpg", "answer": "Miami", "country": "USA" },
+    { "image": "img/satellite-cities-2/07.jpg", "answer": "Adelaide", "country": "Australia" },
+    { "image": "img/satellite-cities-2/08.jpg", "answer": "Osaka", "country": "Japan" },
+    { "image": "img/satellite-cities-2/09.jpg", "answer": "Naypyidaw", "country": "Myanmar" },
+    { "image": "img/satellite-cities-2/10.jpg", "answer": "Mumbai", "country": "India" },
+    { "image": "img/satellite-cities-2/11.jpg", "answer": "Istanbul", "country": "Turkey" }
+  ]
+}
