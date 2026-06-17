@@ -4,19 +4,27 @@ Turning Instagram quiz videos into playable web quizzes — semi-automatically.
 
 **▶ Play here: https://carefulcamel61097.github.io/soluna-quizzes/**
 
+## Credit
+
+**All the quiz ideas, questions, and visuals originate from
+[@solunaaaa16](https://www.instagram.com/solunaaaa16/) on Instagram.** Full credit goes to them.
+
+This project is **not** trying to steal, monetise, or replace their work, and it is **not** a
+public republishing of it. It's a small personal tool that reformats their videos into a
+self-paced web version so I can share a single link with a tiny circle of **family and friends**
+(my dad especially loves these). If you enjoy these quizzes, please go follow and watch the
+originals — that's the whole point. If the creator would prefer this not exist, I'll take it down.
+
 ## What this is
 
-[solunaaaa16](https://www.instagram.com/solunaaaa16/) on Instagram posts videos of a guy
-working through quizzes (geography, trivia, visual puzzles). A lot of them are exactly the
-kind of thing my dad enjoys.
-
-This project takes those videos and turns them into clean, self-paced web quizzes hosted on
-GitHub Pages, so I can share a single link with him. Each quiz shows a question and a visual,
-and a **Show answer** button reveals the answer when he's ready — no typing, no scoring, just
+[@solunaaaa16](https://www.instagram.com/solunaaaa16/) posts videos of a guy working through
+quizzes (geography, history, visual puzzles). This project turns those videos into clean,
+self-paced web quizzes hosted on GitHub Pages. Each quiz shows a question and a visual, and a
+**Show answer** button reveals the answer when you're ready — no typing, no scoring, just
 browse and guess at your own pace.
 
-> These quizzes are adapted from another creator's videos and are intended for **private family
-> use**, not republishing. The original footage is not committed to this repo.
+> Adapted for **private family/friends use**, not republishing. The original video footage is
+> not committed to this repo — only the still frames needed for each question.
 
 ## The pipeline
 

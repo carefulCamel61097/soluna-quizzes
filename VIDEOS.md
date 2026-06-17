@@ -1,64 +1,64 @@
 # Source videos
 
-Tracking which solunaaaa16 reels have been turned into quizzes.
+Tracking which [@solunaaaa16](https://www.instagram.com/solunaaaa16/) reels have been turned into quizzes.
+Sorted by theme, then status. 19 quizzes published; 11 reels still in the backlog.
 
-## Done
+## Published quizzes
 
-| Challenge | Instagram reel | Quiz id | Status |
-|-----------|----------------|---------|--------|
-| Name the 10 cities from their satellite images | https://www.instagram.com/reel/DYjqc1hh0SZ/ | `satellite-cities` | ✅ Done |
-| City from satellite image (world, vol. 2) | https://www.instagram.com/reel/DZm8GZwhfWQ/ | `satellite-cities-2` | ✅ Done |
-| City from satellite image (world, vol. 3) | https://www.instagram.com/reel/DY4jIpdB18L/ | `satellite-cities-3` | ✅ Done |
-| US city from satellite image | https://www.instagram.com/reel/DZXUiTHh_d3/ | `us-cities` | ✅ Done |
-| Country from its outline | https://www.instagram.com/reel/DYHtPl4h5I4/ | `country-outlines` | ✅ Done |
-| Country from its outline (vol. 2) | https://www.instagram.com/reel/DYcusjBh8xW/ | `country-outlines-2` | ✅ Done |
-| Country from rotated outline | https://www.instagram.com/reel/DYmP_3BhCkB/ | `rotated-outlines` | ✅ Done |
-| Country from rotated outline (vol. 2) | https://www.instagram.com/reel/DZcdl_1BO0l/ | `rotated-outlines-2` | ✅ Done |
-| German state from rotated outline | https://www.instagram.com/reel/DZJy5-JByLg/ | `german-states` | ✅ Done |
-| Lake from satellite image | https://www.instagram.com/reel/DZPt_lfhKz8/ | `lakes` | ✅ Done |
-| Island from satellite image | https://www.instagram.com/reel/DYUiGkxBTeS/ | `islands` | ✅ Done |
-| UNESCO World Heritage Site | https://www.instagram.com/reel/DZNBArNBCp3/ | `unesco-sites` | ✅ Done |
-| UNESCO World Heritage Site (vol. 2) | https://www.instagram.com/reel/DZE3SuHhM4z/ | `unesco-sites-2` | ✅ Done |
-| Historical figure from portrait | https://www.instagram.com/reel/DZAVkZfBXdp/ | `figures` | ✅ Done |
-| Historical figure from portrait (vol. 2) | https://www.instagram.com/reel/DYpEoEnBvvk/ | `figures-2` | ✅ Done |
-| Figure from birth/death map | https://www.instagram.com/reel/DZZ6fH-BIWu/ | `maps` | ✅ Done |
-| Figure from birth/death map (vol. 2) | https://www.instagram.com/reel/DZH0_fvhwln/ | `maps-2` | ✅ Done |
-| Artifact from a close-up crop | https://www.instagram.com/reel/DZkPfr-htHp/ | `artifacts` | ✅ Done |
-| Leader from title + reign dates | https://www.instagram.com/reel/DZiA5SSBIem/ | `leaders` | ✅ Done |
+| Theme | Challenge | Quiz id | Instagram reel |
+|-------|-----------|---------|----------------|
+| Geography | Name the 10 cities from their satellite images | `satellite-cities` | https://www.instagram.com/reel/DYjqc1hh0SZ/ |
+| Geography | City from satellite image (world, vol. 2) | `satellite-cities-2` | https://www.instagram.com/reel/DZm8GZwhfWQ/ |
+| Geography | City from satellite image (world, vol. 3) | `satellite-cities-3` | https://www.instagram.com/reel/DY4jIpdB18L/ |
+| Geography | US city from satellite image | `us-cities` | https://www.instagram.com/reel/DZXUiTHh_d3/ |
+| Geography | Country from its outline | `country-outlines` | https://www.instagram.com/reel/DYHtPl4h5I4/ |
+| Geography | Country from its outline (vol. 2) | `country-outlines-2` | https://www.instagram.com/reel/DYcusjBh8xW/ |
+| Geography | Country from rotated outline | `rotated-outlines` | https://www.instagram.com/reel/DYmP_3BhCkB/ |
+| Geography | Country from rotated outline (vol. 2) | `rotated-outlines-2` | https://www.instagram.com/reel/DZcdl_1BO0l/ |
+| Geography | German state from rotated outline | `german-states` | https://www.instagram.com/reel/DZJy5-JByLg/ |
+| Geography | Lake from satellite image | `lakes` | https://www.instagram.com/reel/DZPt_lfhKz8/ |
+| Geography | Island from satellite image | `islands` | https://www.instagram.com/reel/DYUiGkxBTeS/ |
+| Geography | UNESCO World Heritage Site | `unesco-sites` | https://www.instagram.com/reel/DZNBArNBCp3/ |
+| Geography | UNESCO World Heritage Site (vol. 2) | `unesco-sites-2` | https://www.instagram.com/reel/DZE3SuHhM4z/ |
+| History | Historical figure from portrait | `figures` | https://www.instagram.com/reel/DZAVkZfBXdp/ |
+| History | Historical figure from portrait (vol. 2) | `figures-2` | https://www.instagram.com/reel/DYpEoEnBvvk/ |
+| History | Figure from birth/death map | `maps` | https://www.instagram.com/reel/DZZ6fH-BIWu/ |
+| History | Figure from birth/death map (vol. 2) | `maps-2` | https://www.instagram.com/reel/DZH0_fvhwln/ |
+| History | Artifact from a close-up crop | `artifacts` | https://www.instagram.com/reel/DZkPfr-htHp/ |
+| History | Leader from title + reign dates | `leaders` | https://www.instagram.com/reel/DZiA5SSBIem/ |
 
-## Backlog
+## All source reels
 
-29 reels transcribed. Challenge titles filled in from transcripts. "Theme" groups them; statuses
-advance ⬜ Not done → 📝 Transcribed → ✅ Done (published quiz).
+Statuses advance ⬜ Not done → 📝 Transcribed → ✅ Done (published quiz).
 
-| # | Instagram reel | Challenge | Theme | Status |
-|---|----------------|-----------|-------|--------|
-| 1 | https://www.instagram.com/reel/DY4jIpdB18L/ | City from satellite image (world) | Geography | ✅ Done |
-| 2 | https://www.instagram.com/reel/DZH0_fvhwln/ | Historical figure from birth/death map | History | ✅ Done |
-| 3 | https://www.instagram.com/reel/DZZ6fH-BIWu/ | Historical figure from birth/death map | History | ✅ Done |
-| 4 | https://www.instagram.com/reel/DZSTqmyhpr5/ | Country from grayscale flag | Flags | 📝 Transcribed |
-| 5 | https://www.instagram.com/reel/DYpEoEnBvvk/ | Famous historical figure from portrait | History | ✅ Done |
-| 6 | https://www.instagram.com/reel/DZCbQKchAl2/ | German city from satellite image | Geography | 📝 Transcribed |
-| 7 | https://www.instagram.com/reel/DZXUiTHh_d3/ | US city from satellite image | Geography | ✅ Done |
-| 8 | https://www.instagram.com/reel/DYHtPl4h5I4/ | Country from its outline | Geography | ✅ Done |
-| 9 | https://www.instagram.com/reel/DZAVkZfBXdp/ | Historical figure from photo/portrait | History | ✅ Done |
-| 10 | https://www.instagram.com/reel/DY17RmdBYq7/ | Locality (city/region) from its flag | Flags | 📝 Transcribed |
-| 11 | https://www.instagram.com/reel/DYmP_3BhCkB/ | Country from rotated outline | Geography | ✅ Done |
-| 12 | https://www.instagram.com/reel/DZm8GZwhfWQ/ | City from satellite image (world) | Geography | ✅ Done |
-| 13 | https://www.instagram.com/reel/DZkPfr-htHp/ | Historical artifact from a close-up crop | History | ✅ Done |
-| 14 | https://www.instagram.com/reel/DZiA5SSBIem/ | World leader from title + reign dates (text only) | History | ✅ Done |
-| 15 | https://www.instagram.com/reel/DZfFkp-BrpX/ | Brand from its logo | Brands | 📝 Transcribed |
-| 16 | https://www.instagram.com/reel/DZcdl_1BO0l/ | Country from rotated outline | Geography | ✅ Done |
-| 17 | https://www.instagram.com/reel/DZU1tBiBBRu/ | Disney character from image | Pop culture | 📝 Transcribed |
-| 18 | https://www.instagram.com/reel/DZPt_lfhKz8/ | Lake from satellite image | Geography | ✅ Done |
-| 19 | https://www.instagram.com/reel/DZNBArNBCp3/ | UNESCO World Heritage Site from image | Geography | ✅ Done |
-| 20 | https://www.instagram.com/reel/DZJy5-JByLg/ | German federal state from rotated outline | Geography | ✅ Done |
-| 21 | https://www.instagram.com/reel/DZE3SuHhM4z/ | UNESCO World Heritage Site from image | Geography | ✅ Done |
-| 22 | https://www.instagram.com/reel/DY7K6G9h7UQ/ | Country from its flag | Flags | 📝 Transcribed |
-| 23 | https://www.instagram.com/reel/DYw0j3eh892/ | Brand from its logo | Brands | 📝 Transcribed |
-| 24 | https://www.instagram.com/reel/DYuLzr8hohR/ | Language from a text sample | Language | 📝 Transcribed |
-| 25 | https://www.instagram.com/reel/DYcusjBh8xW/ | Country from its outline | Geography | ✅ Done |
-| 26 | https://www.instagram.com/reel/DYZ2MYoBKd7/ | Solar System feature from image | Science | 📝 Transcribed |
-| 27 | https://www.instagram.com/reel/DYXL-jihcV1/ | Country from its flag | Flags | 📝 Transcribed |
-| 28 | https://www.instagram.com/reel/DYUiGkxBTeS/ | Island from satellite image | Geography | ✅ Done |
-| 29 | https://www.instagram.com/reel/DYEGMHABTtF/ | Language from a text sample | Language | 📝 Transcribed |
+| Theme | Status | Challenge | Instagram reel |
+|-------|--------|-----------|----------------|
+| Geography | ✅ Done | City from satellite image (world) | https://www.instagram.com/reel/DY4jIpdB18L/ |
+| Geography | ✅ Done | US city from satellite image | https://www.instagram.com/reel/DZXUiTHh_d3/ |
+| Geography | ✅ Done | Country from its outline | https://www.instagram.com/reel/DYHtPl4h5I4/ |
+| Geography | ✅ Done | Country from rotated outline | https://www.instagram.com/reel/DYmP_3BhCkB/ |
+| Geography | ✅ Done | City from satellite image (world) | https://www.instagram.com/reel/DZm8GZwhfWQ/ |
+| Geography | ✅ Done | Country from rotated outline | https://www.instagram.com/reel/DZcdl_1BO0l/ |
+| Geography | ✅ Done | Lake from satellite image | https://www.instagram.com/reel/DZPt_lfhKz8/ |
+| Geography | ✅ Done | UNESCO World Heritage Site from image | https://www.instagram.com/reel/DZNBArNBCp3/ |
+| Geography | ✅ Done | German federal state from rotated outline | https://www.instagram.com/reel/DZJy5-JByLg/ |
+| Geography | ✅ Done | UNESCO World Heritage Site from image | https://www.instagram.com/reel/DZE3SuHhM4z/ |
+| Geography | ✅ Done | Country from its outline | https://www.instagram.com/reel/DYcusjBh8xW/ |
+| Geography | ✅ Done | Island from satellite image | https://www.instagram.com/reel/DYUiGkxBTeS/ |
+| Geography | 📝 Transcribed | German city from satellite image | https://www.instagram.com/reel/DZCbQKchAl2/ |
+| History | ✅ Done | Historical figure from birth/death map | https://www.instagram.com/reel/DZH0_fvhwln/ |
+| History | ✅ Done | Historical figure from birth/death map | https://www.instagram.com/reel/DZZ6fH-BIWu/ |
+| History | ✅ Done | Famous historical figure from portrait | https://www.instagram.com/reel/DYpEoEnBvvk/ |
+| History | ✅ Done | Historical figure from photo/portrait | https://www.instagram.com/reel/DZAVkZfBXdp/ |
+| History | ✅ Done | Historical artifact from a close-up crop | https://www.instagram.com/reel/DZkPfr-htHp/ |
+| History | ✅ Done | World leader from title + reign dates (text only) | https://www.instagram.com/reel/DZiA5SSBIem/ |
+| Flags | 📝 Transcribed | Country from grayscale flag | https://www.instagram.com/reel/DZSTqmyhpr5/ |
+| Flags | 📝 Transcribed | Locality (city/region) from its flag | https://www.instagram.com/reel/DY17RmdBYq7/ |
+| Flags | 📝 Transcribed | Country from its flag | https://www.instagram.com/reel/DY7K6G9h7UQ/ |
+| Flags | 📝 Transcribed | Country from its flag | https://www.instagram.com/reel/DYXL-jihcV1/ |
+| Brands | 📝 Transcribed | Brand from its logo | https://www.instagram.com/reel/DZfFkp-BrpX/ |
+| Brands | 📝 Transcribed | Brand from its logo | https://www.instagram.com/reel/DYw0j3eh892/ |
+| Language | 📝 Transcribed | Language from a text sample | https://www.instagram.com/reel/DYuLzr8hohR/ |
+| Language | 📝 Transcribed | Language from a text sample | https://www.instagram.com/reel/DYEGMHABTtF/ |
+| Pop culture | 📝 Transcribed | Disney character from image | https://www.instagram.com/reel/DZU1tBiBBRu/ |
+| Science | 📝 Transcribed | Solar System feature from image | https://www.instagram.com/reel/DYZ2MYoBKd7/ |

@@ -38,10 +38,30 @@ a:hover { color: var(--accent-hover); }
 .tagline { color: var(--muted); margin: .5rem 0 0; }
 .site-footer { color: var(--muted); font-size: .85rem; padding-top: 2.5rem; }
 
+.theme-section { margin: 0 auto 2.25rem; max-width: var(--max-w); }
+.theme-heading {
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+  margin: 1.75rem 1.25rem .75rem;
+  padding-bottom: .5rem;
+  font-size: 1.35rem;
+  border-bottom: 1px solid var(--border);
+}
+.theme-count {
+  font-size: .8rem;
+  font-weight: 600;
+  color: var(--muted);
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: .1rem .6rem;
+}
+
 .quiz-list {
   list-style: none;
   max-width: var(--max-w);
-  margin: 1.5rem auto;
+  margin: 0 auto;
   padding: 0 1.25rem;
   display: grid;
   gap: 1rem;

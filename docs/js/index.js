@@ -1,8 +1,10 @@
 // Landing page: load the quiz manifest, render a card per quiz,
 // and let the player mark quizzes as Favourite / Done (stored locally in this browser).
 (function () {
-  const list = document.getElementById('quiz-list');
+  const container = document.getElementById('quiz-sections');
   const STORE_KEY = 'soluna-marks-v1';
+  // Theme display order; any unknown theme is appended after these.
+  const THEME_ORDER = ['Geography', 'History'];
 
   // --- local storage of marks: { [quizId]: { fav: bool, done: bool } } ---
   function loadMarks() {
@@ -30,21 +32,49 @@
       const data = await res.json();
       render(data.quizzes || []);
     } catch (err) {
-      list.innerHTML = `<li class="error">Could not load quizzes (${escapeHtml(String(err.message))}).
-        If you opened this file directly, serve it with a local web server instead.</li>`;
+      container.innerHTML = `<p class="error">Could not load quizzes (${escapeHtml(String(err.message))}).
+        If you opened this file directly, serve it with a local web server instead.</p>`;
     }
   }
 
   function render(quizzes) {
     if (quizzes.length === 0) {
-      list.innerHTML = '<li class="loading">No quizzes yet.</li>';
+      container.innerHTML = '<p class="loading">No quizzes yet.</p>';
       return;
     }
 
     const marks = loadMarks();
-    list.innerHTML = '';
+    container.innerHTML = '';
 
+    // Group quizzes by theme, preserving manifest order within each group.
+    const groups = new Map();
     for (const q of quizzes) {
+      const theme = q.theme || 'Other';
+      if (!groups.has(theme)) groups.set(theme, []);
+      groups.get(theme).push(q);
+    }
+    const themes = [...groups.keys()].sort((a, b) => {
+      const ia = THEME_ORDER.indexOf(a), ib = THEME_ORDER.indexOf(b);
+      return (ia === -1 ? 99 : ia) - (ib === -1 ? 99 : ib);
+    });
+
+    for (const theme of themes) {
+      const quizzesInTheme = groups.get(theme);
+      const section = document.createElement('section');
+      section.className = 'theme-section';
+      const heading = document.createElement('h2');
+      heading.className = 'theme-heading';
+      heading.innerHTML = `${escapeHtml(theme)} <span class="theme-count">${quizzesInTheme.length}</span>`;
+      const list = document.createElement('ul');
+      list.className = 'quiz-list';
+      for (const q of quizzesInTheme) list.appendChild(buildCard(q, marks));
+      section.appendChild(heading);
+      section.appendChild(list);
+      container.appendChild(section);
+    }
+  }
+
+  function buildCard(q, marks) {
       const m = getMark(marks, q.id);
       const li = document.createElement('li');
       li.className = 'quiz-card' + (m.done ? ' is-done' : '');
@@ -93,8 +123,7 @@
         setMark(q.id, 'done', on);
       });
 
-      list.appendChild(li);
-    }
+      return li;
   }
 
   function escapeHtml(s) {
