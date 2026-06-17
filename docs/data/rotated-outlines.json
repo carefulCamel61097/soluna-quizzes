@@ -1,0 +1,18 @@
+{
+  "id": "rotated-outlines",
+  "title": "Name the Country from its Rotated Outline",
+  "source": "Quiz by solunaaaa16 (Instagram)",
+  "prompt": "Which country has this outline? (rotated — north isn't up!)",
+  "questions": [
+    { "image": "img/rotated-outlines/01.jpg", "answer": "Colombia" },
+    { "image": "img/rotated-outlines/02.jpg", "answer": "Finland" },
+    { "image": "img/rotated-outlines/03.jpg", "answer": "Kazakhstan" },
+    { "image": "img/rotated-outlines/04.jpg", "answer": "Cabinda (Angola)" },
+    { "image": "img/rotated-outlines/05.jpg", "answer": "Dominican Republic" },
+    { "image": "img/rotated-outlines/06.jpg", "answer": "Pakistan" },
+    { "image": "img/rotated-outlines/07.jpg", "answer": "Malta" },
+    { "image": "img/rotated-outlines/08.jpg", "answer": "Tanzania" },
+    { "image": "img/rotated-outlines/09.jpg", "answer": "Sri Lanka" },
+    { "image": "img/rotated-outlines/10.jpg", "answer": "Costa Rica" }
+  ]
+}

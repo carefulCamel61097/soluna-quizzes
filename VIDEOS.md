@@ -12,6 +12,7 @@ Tracking which solunaaaa16 reels have been turned into quizzes.
 | US city from satellite image | https://www.instagram.com/reel/DZXUiTHh_d3/ | `us-cities` | ✅ Done |
 | Country from its outline | https://www.instagram.com/reel/DYHtPl4h5I4/ | `country-outlines` | ✅ Done |
 | Country from its outline (vol. 2) | https://www.instagram.com/reel/DYcusjBh8xW/ | `country-outlines-2` | ✅ Done |
+| Country from rotated outline | https://www.instagram.com/reel/DYmP_3BhCkB/ | `rotated-outlines` | ✅ Done |
 
 ## Backlog
 
@@ -30,7 +31,7 @@ advance ⬜ Not done → 📝 Transcribed → ✅ Done (published quiz).
 | 8 | https://www.instagram.com/reel/DYHtPl4h5I4/ | Country from its outline | Geography | ✅ Done |
 | 9 | https://www.instagram.com/reel/DZAVkZfBXdp/ | Historical figure from photo/portrait | History | 📝 Transcribed |
 | 10 | https://www.instagram.com/reel/DY17RmdBYq7/ | Locality (city/region) from its flag | Flags | 📝 Transcribed |
-| 11 | https://www.instagram.com/reel/DYmP_3BhCkB/ | Country from rotated outline | Geography | 📝 Transcribed |
+| 11 | https://www.instagram.com/reel/DYmP_3BhCkB/ | Country from rotated outline | Geography | ✅ Done |
 | 12 | https://www.instagram.com/reel/DZm8GZwhfWQ/ | City from satellite image (world) | Geography | ✅ Done |
 | 13 | https://www.instagram.com/reel/DZkPfr-htHp/ | Historical artifact from a close-up crop | History | 📝 Transcribed |
 | 14 | https://www.instagram.com/reel/DZiA5SSBIem/ | World leader from title + reign dates (text only) | History | 📝 Transcribed |

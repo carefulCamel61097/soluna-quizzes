@@ -47,6 +47,14 @@
       "count": 10,
       "thumb": "img/country-outlines-2/03.jpg",
       "source": "solunaaaa16"
+    },
+    {
+      "id": "rotated-outlines",
+      "title": "Name the Country from its Rotated Outline",
+      "description": "Harder mode: 10 country outlines with north NOT up.",
+      "count": 10,
+      "thumb": "img/rotated-outlines/08.jpg",
+      "source": "solunaaaa16"
     }
   ]
 }

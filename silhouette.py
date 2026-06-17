@@ -12,6 +12,8 @@ from PIL import Image
 FILL = (46, 170, 70)      # green shape colour on output
 BG = (245, 247, 250)      # near-white background
 MARGIN = 0.08             # padding around the shape, fraction of max dimension
+YMIN_FRAC = 0.52          # ignore green above this fraction of height
+                          # (some reels render the answer caption in green, up top)
 
 
 def is_green(r, g, b):
@@ -28,7 +30,8 @@ def main(inp, outp):
     minx, miny, maxx, maxy = w, h, -1, -1
     mask = Image.new("1", (w, h), 0)
     mpx = mask.load()
-    for y in range(h):
+    y0 = int(h * YMIN_FRAC)
+    for y in range(y0, h):
         for x in range(w):
             r, g, b = px[x, y]
             if is_green(r, g, b):
