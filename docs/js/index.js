@@ -2,6 +2,7 @@
 // and let the player mark quizzes as Favourite / Done (stored locally in this browser).
 (function () {
   const container = document.getElementById('quiz-sections');
+  const toggleBar = document.getElementById('theme-toggle');
   const STORE_KEY = 'soluna-marks-v1';
   // Theme display order; any unknown theme is appended after these.
   const THEME_ORDER = ['Geography', 'History'];
@@ -62,6 +63,7 @@
       const quizzesInTheme = groups.get(theme);
       const section = document.createElement('section');
       section.className = 'theme-section';
+      section.dataset.theme = theme;
       const heading = document.createElement('h2');
       heading.className = 'theme-heading';
       heading.innerHTML = `${escapeHtml(theme)} <span class="theme-count">${quizzesInTheme.length}</span>`;
@@ -71,6 +73,37 @@
       section.appendChild(heading);
       section.appendChild(list);
       container.appendChild(section);
+    }
+
+    buildToggle(themes, groups, quizzes.length);
+  }
+
+  // Filter toggle: "All" + one chip per theme, each showing its quiz count.
+  function buildToggle(themes, groups, total) {
+    toggleBar.innerHTML = '';
+    const make = (label, count, theme) => {
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'toggle-btn';
+      btn.setAttribute('role', 'tab');
+      btn.dataset.theme = theme || '';
+      btn.innerHTML = `${escapeHtml(label)} <span class="toggle-count">${count}</span>`;
+      btn.addEventListener('click', () => applyFilter(theme || ''));
+      return btn;
+    };
+    toggleBar.appendChild(make('All', total, ''));
+    for (const theme of themes) toggleBar.appendChild(make(theme, groups.get(theme).length, theme));
+    applyFilter('');
+  }
+
+  function applyFilter(theme) {
+    for (const btn of toggleBar.querySelectorAll('.toggle-btn')) {
+      const on = btn.dataset.theme === theme;
+      btn.classList.toggle('is-active', on);
+      btn.setAttribute('aria-selected', String(on));
+    }
+    for (const section of container.querySelectorAll('.theme-section')) {
+      section.hidden = theme !== '' && section.dataset.theme !== theme;
     }
   }
 
