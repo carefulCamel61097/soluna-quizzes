@@ -1,0 +1,19 @@
+{
+  "id": "maps",
+  "title": "Name the Figure from their Birth & Death Map",
+  "source": "Quiz by solunaaaa16 (Instagram)",
+  "prompt": "Green = born, red = died. Which historical figure is this?",
+  "questions": [
+    { "image": "img/maps/01.jpg", "answer": "John F. Kennedy" },
+    { "image": "img/maps/02.jpg", "answer": "Albert Einstein" },
+    { "image": "img/maps/03.jpg", "answer": "Joseph Stalin" },
+    { "image": "img/maps/04.jpg", "answer": "Christopher Columbus" },
+    { "image": "img/maps/05.jpg", "answer": "Ferdinand Magellan" },
+    { "image": "img/maps/06.jpg", "answer": "Karl Marx" },
+    { "image": "img/maps/07.jpg", "answer": "Nikola Tesla" },
+    { "image": "img/maps/08.jpg", "answer": "Che Guevara" },
+    { "image": "img/maps/09.jpg", "answer": "Princess Diana" },
+    { "image": "img/maps/10.jpg", "answer": "Freddie Mercury" },
+    { "image": "img/maps/11.jpg", "answer": "Ayrton Senna" }
+  ]
+}

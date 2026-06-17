@@ -1,0 +1,18 @@
+{
+  "id": "figures-2",
+  "title": "Name the Historical Figure (Vol. 2)",
+  "source": "Quiz by solunaaaa16 (Instagram)",
+  "prompt": "Which historical figure is this?",
+  "questions": [
+    { "image": "img/figures-2/01.jpg", "answer": "Justinian I" },
+    { "image": "img/figures-2/02.jpg", "answer": "Cardinal Richelieu" },
+    { "image": "img/figures-2/03.jpg", "answer": "Helmuth von Moltke the Younger" },
+    { "image": "img/figures-2/04.jpg", "answer": "Charles Martel", "country": "Battle of Tours" },
+    { "image": "img/figures-2/05.jpg", "answer": "Nicolaus Copernicus" },
+    { "image": "img/figures-2/06.jpg", "answer": "Gustavus Adolphus" },
+    { "image": "img/figures-2/07.jpg", "answer": "Yasser Arafat" },
+    { "image": "img/figures-2/08.jpg", "answer": "Suharto" },
+    { "image": "img/figures-2/09.jpg", "answer": "Romulus and Remus" },
+    { "image": "img/figures-2/10.jpg", "answer": "Johann Sebastian Bach" }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "leaders",
+  "title": "Name the Leader from their Title & Reign",
+  "source": "Quiz by solunaaaa16 (Instagram)",
+  "prompt": "No image this time — just the title and dates. Who ruled?",
+  "questions": [
+    { "image": "img/leaders/01.jpg", "answer": "Louis XV" },
+    { "image": "img/leaders/02.jpg", "answer": "Thomas Jefferson" },
+    { "image": "img/leaders/03.jpg", "answer": "Henry VIII" },
+    { "image": "img/leaders/04.jpg", "answer": "Nicholas II" },
+    { "image": "img/leaders/05.jpg", "answer": "Emperor Meiji" },
+    { "image": "img/leaders/06.jpg", "answer": "Hugo Chávez" },
+    { "image": "img/leaders/07.jpg", "answer": "Anwar Sadat" },
+    { "image": "img/leaders/08.jpg", "answer": "Mehmed II (the Conqueror)" },
+    { "image": "img/leaders/09.jpg", "answer": "Paul von Hindenburg" },
+    { "image": "img/leaders/10.jpg", "answer": "Tiberius" }
+  ]
+}

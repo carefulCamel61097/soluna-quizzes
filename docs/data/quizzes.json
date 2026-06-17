@@ -103,6 +103,54 @@
       "count": 11,
       "thumb": "img/unesco-sites-2/01.jpg",
       "source": "solunaaaa16"
+    },
+    {
+      "id": "figures",
+      "title": "Name the Historical Figure",
+      "description": "Eleven portraits & photos, Joan of Arc to Neil Armstrong.",
+      "count": 11,
+      "thumb": "img/figures/04.jpg",
+      "source": "solunaaaa16"
+    },
+    {
+      "id": "figures-2",
+      "title": "Name the Historical Figure (Vol. 2)",
+      "description": "Ten more, from Justinian and Richelieu to J. S. Bach.",
+      "count": 10,
+      "thumb": "img/figures-2/10.jpg",
+      "source": "solunaaaa16"
+    },
+    {
+      "id": "maps",
+      "title": "Name the Figure from their Birth & Death Map",
+      "description": "Green = born, red = died. Eleven figures from the map alone.",
+      "count": 11,
+      "thumb": "img/maps/01.jpg",
+      "source": "solunaaaa16"
+    },
+    {
+      "id": "maps-2",
+      "title": "Name the Figure from their Birth & Death Map (Vol. 2)",
+      "description": "Ten more birth/death maps, Hitler to Vasco da Gama.",
+      "count": 10,
+      "thumb": "img/maps-2/04.jpg",
+      "source": "solunaaaa16"
+    },
+    {
+      "id": "artifacts",
+      "title": "Name the Artifact from a Close-Up",
+      "description": "Ten famous artifacts seen as tiny crops, Rosetta Stone to the Moai.",
+      "count": 10,
+      "thumb": "img/artifacts/05.jpg",
+      "source": "solunaaaa16"
+    },
+    {
+      "id": "leaders",
+      "title": "Name the Leader from their Title & Reign",
+      "description": "No images — just the title and dates. Ten rulers to identify.",
+      "count": 10,
+      "thumb": "img/leaders/03.jpg",
+      "source": "solunaaaa16"
     }
   ]
 }

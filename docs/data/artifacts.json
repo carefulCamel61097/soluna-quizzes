@@ -1,0 +1,18 @@
+{
+  "id": "artifacts",
+  "title": "Name the Artifact from a Close-Up",
+  "source": "Quiz by solunaaaa16 (Instagram)",
+  "prompt": "You only see a small portion — which famous artifact is this?",
+  "questions": [
+    { "image": "img/artifacts/01.jpg", "answer": "Rosetta Stone" },
+    { "image": "img/artifacts/02.jpg", "answer": "Tutankhamun's Mask" },
+    { "image": "img/artifacts/03.jpg", "answer": "Pakal's Jade Mask" },
+    { "image": "img/artifacts/04.jpg", "answer": "Lycurgus Cup" },
+    { "image": "img/artifacts/05.jpg", "answer": "Venus de Milo" },
+    { "image": "img/artifacts/06.jpg", "answer": "Bayeux Tapestry" },
+    { "image": "img/artifacts/07.jpg", "answer": "Mona Lisa" },
+    { "image": "img/artifacts/08.jpg", "answer": "Terracotta Army" },
+    { "image": "img/artifacts/09.jpg", "answer": "The Thinker" },
+    { "image": "img/artifacts/10.jpg", "answer": "Moai (Easter Island)" }
+  ]
+}

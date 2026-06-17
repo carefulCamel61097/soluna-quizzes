@@ -1,0 +1,19 @@
+{
+  "id": "figures",
+  "title": "Name the Historical Figure",
+  "source": "Quiz by solunaaaa16 (Instagram)",
+  "prompt": "Which historical figure is this?",
+  "questions": [
+    { "image": "img/figures/01.jpg", "answer": "Joan of Arc" },
+    { "image": "img/figures/02.jpg", "answer": "Galileo Galilei" },
+    { "image": "img/figures/03.jpg", "answer": "Andrew Jackson" },
+    { "image": "img/figures/04.jpg", "answer": "Mahatma Gandhi" },
+    { "image": "img/figures/05.jpg", "answer": "Emperor Hirohito" },
+    { "image": "img/figures/06.jpg", "answer": "Hernán Cortés" },
+    { "image": "img/figures/07.jpg", "answer": "Nikita Khrushchev" },
+    { "image": "img/figures/08.jpg", "answer": "Ho Chi Minh" },
+    { "image": "img/figures/09.jpg", "answer": "Elizabeth I" },
+    { "image": "img/figures/10.jpg", "answer": "Albrecht Dürer" },
+    { "image": "img/figures/11.jpg", "answer": "Neil Armstrong" }
+  ]
+}
