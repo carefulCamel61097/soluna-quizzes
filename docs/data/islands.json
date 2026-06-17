@@ -1,0 +1,18 @@
+{
+  "id": "islands",
+  "title": "Name the Island from its Satellite Image",
+  "source": "Quiz by solunaaaa16 (Instagram)",
+  "prompt": "Which island is this, seen from above?",
+  "questions": [
+    { "image": "img/islands/01.jpg", "answer": "Baffin Island", "country": "Canada" },
+    { "image": "img/islands/02.jpg", "answer": "Novaya Zemlya", "country": "Russia" },
+    { "image": "img/islands/03.jpg", "answer": "Socotra", "country": "Yemen" },
+    { "image": "img/islands/04.jpg", "answer": "Rügen", "country": "Germany" },
+    { "image": "img/islands/05.jpg", "answer": "Madagascar", "country": "Madagascar" },
+    { "image": "img/islands/06.jpg", "answer": "Kauaʻi", "country": "Hawaii, USA" },
+    { "image": "img/islands/07.jpg", "answer": "Tasmania", "country": "Australia" },
+    { "image": "img/islands/08.jpg", "answer": "Santorini", "country": "Greece" },
+    { "image": "img/islands/09.jpg", "answer": "Jeju", "country": "South Korea" },
+    { "image": "img/islands/10.jpg", "answer": "Tristan da Cunha", "country": "United Kingdom" }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "unesco-sites-2",
+  "title": "Name the UNESCO World Heritage Site (Vol. 2)",
+  "source": "Quiz by solunaaaa16 (Instagram)",
+  "prompt": "Which UNESCO World Heritage Site is this?",
+  "questions": [
+    { "image": "img/unesco-sites-2/01.jpg", "answer": "Machu Picchu", "country": "Peru" },
+    { "image": "img/unesco-sites-2/02.jpg", "answer": "Mont-Saint-Michel", "country": "France" },
+    { "image": "img/unesco-sites-2/03.jpg", "answer": "Yosemite National Park", "country": "USA" },
+    { "image": "img/unesco-sites-2/04.jpg", "answer": "Angkor Wat", "country": "Cambodia" },
+    { "image": "img/unesco-sites-2/05.jpg", "answer": "Cologne Cathedral", "country": "Germany" },
+    { "image": "img/unesco-sites-2/06.jpg", "answer": "Toledo", "country": "Spain" },
+    { "image": "img/unesco-sites-2/07.jpg", "answer": "Plitvice Lakes", "country": "Croatia" },
+    { "image": "img/unesco-sites-2/08.jpg", "answer": "Surtsey", "country": "Iceland" },
+    { "image": "img/unesco-sites-2/09.jpg", "answer": "Teotihuacan", "country": "Mexico" },
+    { "image": "img/unesco-sites-2/10.jpg", "answer": "Marrakesh (Medina)", "country": "Morocco" },
+    { "image": "img/unesco-sites-2/11.jpg", "answer": "Ha Long Bay", "country": "Vietnam" }
+  ]
+}

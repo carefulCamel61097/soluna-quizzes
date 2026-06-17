@@ -1,0 +1,19 @@
+{
+  "id": "unesco-sites",
+  "title": "Name the UNESCO World Heritage Site",
+  "source": "Quiz by solunaaaa16 (Instagram)",
+  "prompt": "Which UNESCO World Heritage Site is this?",
+  "questions": [
+    { "image": "img/unesco-sites/01.jpg", "answer": "Kyoto (Daigo-ji)", "country": "Japan" },
+    { "image": "img/unesco-sites/02.jpg", "answer": "Petra", "country": "Jordan" },
+    { "image": "img/unesco-sites/03.jpg", "answer": "Galápagos Islands", "country": "Ecuador" },
+    { "image": "img/unesco-sites/04.jpg", "answer": "Iguazú Falls", "country": "Argentina / Brazil" },
+    { "image": "img/unesco-sites/05.jpg", "answer": "Taj Mahal", "country": "India" },
+    { "image": "img/unesco-sites/06.jpg", "answer": "Los Glaciares (Perito Moreno)", "country": "Argentina" },
+    { "image": "img/unesco-sites/07.jpg", "answer": "Agra Fort", "country": "India" },
+    { "image": "img/unesco-sites/08.jpg", "answer": "Forbidden City", "country": "China" },
+    { "image": "img/unesco-sites/09.jpg", "answer": "Acropolis of Athens", "country": "Greece" },
+    { "image": "img/unesco-sites/10.jpg", "answer": "Leshan Giant Buddha", "country": "China" },
+    { "image": "img/unesco-sites/11.jpg", "answer": "Rapa Nui (Easter Island)", "country": "Chile" }
+  ]
+}

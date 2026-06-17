@@ -71,6 +71,38 @@
       "count": 10,
       "thumb": "img/german-states/02.jpg",
       "source": "solunaaaa16"
+    },
+    {
+      "id": "lakes",
+      "title": "Name the Lake from its Satellite Image",
+      "description": "Ten lakes from above — Baikal, Titicaca, Tanganyika and more.",
+      "count": 10,
+      "thumb": "img/lakes/03.jpg",
+      "source": "solunaaaa16"
+    },
+    {
+      "id": "islands",
+      "title": "Name the Island from its Satellite Image",
+      "description": "Ten islands from above, Baffin to Tristan da Cunha.",
+      "count": 10,
+      "thumb": "img/islands/05.jpg",
+      "source": "solunaaaa16"
+    },
+    {
+      "id": "unesco-sites",
+      "title": "Name the UNESCO World Heritage Site",
+      "description": "Eleven world wonders from a photo — Petra, the Taj Mahal and more.",
+      "count": 11,
+      "thumb": "img/unesco-sites/05.jpg",
+      "source": "solunaaaa16"
+    },
+    {
+      "id": "unesco-sites-2",
+      "title": "Name the UNESCO World Heritage Site (Vol. 2)",
+      "description": "Eleven more heritage sites, Machu Picchu to Ha Long Bay.",
+      "count": 11,
+      "thumb": "img/unesco-sites-2/01.jpg",
+      "source": "solunaaaa16"
     }
   ]
 }

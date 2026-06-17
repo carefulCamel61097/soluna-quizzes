@@ -1,0 +1,18 @@
+{
+  "id": "lakes",
+  "title": "Name the Lake from its Satellite Image",
+  "source": "Quiz by solunaaaa16 (Instagram)",
+  "prompt": "Which lake is this, seen from above?",
+  "questions": [
+    { "image": "img/lakes/01.jpg", "answer": "Lake Ladoga", "country": "Russia" },
+    { "image": "img/lakes/02.jpg", "answer": "Lake Baikal", "country": "Russia" },
+    { "image": "img/lakes/03.jpg", "answer": "Lake Nasser", "country": "Egypt" },
+    { "image": "img/lakes/04.jpg", "answer": "Lake Titicaca", "country": "Peru / Bolivia" },
+    { "image": "img/lakes/05.jpg", "answer": "Lake Tanganyika", "country": "East Africa" },
+    { "image": "img/lakes/06.jpg", "answer": "Tonlé Sap", "country": "Cambodia" },
+    { "image": "img/lakes/07.jpg", "answer": "Lake Balaton", "country": "Hungary" },
+    { "image": "img/lakes/08.jpg", "answer": "Lake Vänern", "country": "Sweden" },
+    { "image": "img/lakes/09.jpg", "answer": "Lake Ontario", "country": "Canada / USA" },
+    { "image": "img/lakes/10.jpg", "answer": "Lake Uvs (Uvs Nuur)", "country": "Mongolia" }
+  ]
+}

@@ -15,6 +15,10 @@ Tracking which solunaaaa16 reels have been turned into quizzes.
 | Country from rotated outline | https://www.instagram.com/reel/DYmP_3BhCkB/ | `rotated-outlines` | ✅ Done |
 | Country from rotated outline (vol. 2) | https://www.instagram.com/reel/DZcdl_1BO0l/ | `rotated-outlines-2` | ✅ Done |
 | German state from rotated outline | https://www.instagram.com/reel/DZJy5-JByLg/ | `german-states` | ✅ Done |
+| Lake from satellite image | https://www.instagram.com/reel/DZPt_lfhKz8/ | `lakes` | ✅ Done |
+| Island from satellite image | https://www.instagram.com/reel/DYUiGkxBTeS/ | `islands` | ✅ Done |
+| UNESCO World Heritage Site | https://www.instagram.com/reel/DZNBArNBCp3/ | `unesco-sites` | ✅ Done |
+| UNESCO World Heritage Site (vol. 2) | https://www.instagram.com/reel/DZE3SuHhM4z/ | `unesco-sites-2` | ✅ Done |
 
 ## Backlog
 
@@ -40,15 +44,15 @@ advance ⬜ Not done → 📝 Transcribed → ✅ Done (published quiz).
 | 15 | https://www.instagram.com/reel/DZfFkp-BrpX/ | Brand from its logo | Brands | 📝 Transcribed |
 | 16 | https://www.instagram.com/reel/DZcdl_1BO0l/ | Country from rotated outline | Geography | ✅ Done |
 | 17 | https://www.instagram.com/reel/DZU1tBiBBRu/ | Disney character from image | Pop culture | 📝 Transcribed |
-| 18 | https://www.instagram.com/reel/DZPt_lfhKz8/ | Lake from satellite image | Geography | 📝 Transcribed |
-| 19 | https://www.instagram.com/reel/DZNBArNBCp3/ | UNESCO World Heritage Site from image | Geography | 📝 Transcribed |
+| 18 | https://www.instagram.com/reel/DZPt_lfhKz8/ | Lake from satellite image | Geography | ✅ Done |
+| 19 | https://www.instagram.com/reel/DZNBArNBCp3/ | UNESCO World Heritage Site from image | Geography | ✅ Done |
 | 20 | https://www.instagram.com/reel/DZJy5-JByLg/ | German federal state from rotated outline | Geography | ✅ Done |
-| 21 | https://www.instagram.com/reel/DZE3SuHhM4z/ | UNESCO World Heritage Site from image | Geography | 📝 Transcribed |
+| 21 | https://www.instagram.com/reel/DZE3SuHhM4z/ | UNESCO World Heritage Site from image | Geography | ✅ Done |
 | 22 | https://www.instagram.com/reel/DY7K6G9h7UQ/ | Country from its flag | Flags | 📝 Transcribed |
 | 23 | https://www.instagram.com/reel/DYw0j3eh892/ | Brand from its logo | Brands | 📝 Transcribed |
 | 24 | https://www.instagram.com/reel/DYuLzr8hohR/ | Language from a text sample | Language | 📝 Transcribed |
 | 25 | https://www.instagram.com/reel/DYcusjBh8xW/ | Country from its outline | Geography | ✅ Done |
 | 26 | https://www.instagram.com/reel/DYZ2MYoBKd7/ | Solar System feature from image | Science | 📝 Transcribed |
 | 27 | https://www.instagram.com/reel/DYXL-jihcV1/ | Country from its flag | Flags | 📝 Transcribed |
-| 28 | https://www.instagram.com/reel/DYUiGkxBTeS/ | Island from satellite image | Geography | 📝 Transcribed |
+| 28 | https://www.instagram.com/reel/DYUiGkxBTeS/ | Island from satellite image | Geography | ✅ Done |
 | 29 | https://www.instagram.com/reel/DYEGMHABTtF/ | Language from a text sample | Language | 📝 Transcribed |
