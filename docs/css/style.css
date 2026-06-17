@@ -235,4 +235,13 @@ a:hover { color: var(--accent-hover); }
 @media (max-width: 480px) {
   .answer { font-size: 1.35rem; }
   .prompt { font-size: 1.05rem; }
+
+  /* Don't let the stage stretch to full height — otherwise the nav bar is
+     pushed to the very bottom of the screen, behind the phone's system
+     buttons. Let it flow right under the Show answer / answer area. */
+  .stage { flex: none; }
+  .nav-bar {
+    padding-top: .25rem;
+    padding-bottom: calc(1rem + env(safe-area-inset-bottom, 0px));
+  }
 }

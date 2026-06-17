@@ -1,0 +1,18 @@
+{
+  "id": "german-states",
+  "title": "Name the German State from its Rotated Outline",
+  "source": "Quiz by solunaaaa16 (Instagram)",
+  "prompt": "Which German federal state has this outline? (rotated — north isn't up!)",
+  "questions": [
+    { "image": "img/german-states/01.jpg", "answer": "Baden-Württemberg" },
+    { "image": "img/german-states/02.jpg", "answer": "Mecklenburg-Vorpommern" },
+    { "image": "img/german-states/03.jpg", "answer": "Saarland" },
+    { "image": "img/german-states/04.jpg", "answer": "Hessen" },
+    { "image": "img/german-states/05.jpg", "answer": "Sachsen-Anhalt" },
+    { "image": "img/german-states/06.jpg", "answer": "Sachsen" },
+    { "image": "img/german-states/07.jpg", "answer": "Bayern" },
+    { "image": "img/german-states/08.jpg", "answer": "Nordrhein-Westfalen" },
+    { "image": "img/german-states/09.jpg", "answer": "Thüringen" },
+    { "image": "img/german-states/10.jpg", "answer": "Hamburg" }
+  ]
+}

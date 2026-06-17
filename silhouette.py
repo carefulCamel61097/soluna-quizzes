@@ -45,6 +45,41 @@ def main(inp, outp):
         print("No green outline found in", inp)
         sys.exit(2)
 
+    # Strip a green answer-caption band: some reels render the answer text in
+    # the same green, sitting ABOVE the shape with a clear empty gap between.
+    # Walk rows from the top of the green bbox; if the first green cluster is
+    # followed by a gap and holds far fewer pixels than what's below, it's text.
+    row_count = [0] * (maxy + 1)
+    for y in range(miny, maxy + 1):
+        c = 0
+        for x in range(minx, maxx + 1):
+            if mpx[x, y]:
+                c += 1
+        row_count[y] = c
+    empty = max(1, int(0.008 * w))      # a row this sparse counts as "blank"
+    gap_need = max(3, int(0.03 * h))     # blank run this long = a real gap
+    y = miny
+    while y <= maxy and row_count[y] <= empty:
+        y += 1
+    top_start = y
+    while y <= maxy and row_count[y] > empty:
+        y += 1
+    top_end = y                          # first blank row after the top cluster
+    blank = y
+    while blank <= maxy and row_count[blank] <= empty:
+        blank += 1
+    if (blank - top_end) >= gap_need and blank <= maxy:
+        above = sum(row_count[top_start:top_end])
+        below = sum(row_count[blank:maxy + 1])
+        if above < 0.35 * below:         # top cluster is a thin caption, not the shape
+            miny = blank
+            minx, maxx = w, -1
+            for yy in range(miny, maxy + 1):
+                for xx in range(w):
+                    if mpx[xx, yy]:
+                        if xx < minx: minx = xx
+                        if xx > maxx: maxx = xx
+
     out = Image.new("RGB", (w, h), BG)
     opx = out.load()
     for y in range(miny, maxy + 1):

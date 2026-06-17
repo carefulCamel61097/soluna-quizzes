@@ -1,0 +1,19 @@
+{
+  "id": "rotated-outlines-2",
+  "title": "Name the Country from its Rotated Outline (Vol. 2)",
+  "source": "Quiz by solunaaaa16 (Instagram)",
+  "prompt": "Which country has this outline? (rotated — north isn't up!)",
+  "questions": [
+    { "image": "img/rotated-outlines-2/01.jpg", "answer": "Argentina" },
+    { "image": "img/rotated-outlines-2/02.jpg", "answer": "Belgium" },
+    { "image": "img/rotated-outlines-2/03.jpg", "answer": "Botswana" },
+    { "image": "img/rotated-outlines-2/04.jpg", "answer": "Malawi" },
+    { "image": "img/rotated-outlines-2/05.jpg", "answer": "Lithuania" },
+    { "image": "img/rotated-outlines-2/06.jpg", "answer": "Brunei" },
+    { "image": "img/rotated-outlines-2/07.jpg", "answer": "Côte d'Ivoire" },
+    { "image": "img/rotated-outlines-2/08.jpg", "answer": "Mongolia" },
+    { "image": "img/rotated-outlines-2/09.jpg", "answer": "Vatican City" },
+    { "image": "img/rotated-outlines-2/10.jpg", "answer": "North Macedonia" },
+    { "image": "img/rotated-outlines-2/11.jpg", "answer": "Poland" }
+  ]
+}

@@ -13,6 +13,8 @@ Tracking which solunaaaa16 reels have been turned into quizzes.
 | Country from its outline | https://www.instagram.com/reel/DYHtPl4h5I4/ | `country-outlines` | ✅ Done |
 | Country from its outline (vol. 2) | https://www.instagram.com/reel/DYcusjBh8xW/ | `country-outlines-2` | ✅ Done |
 | Country from rotated outline | https://www.instagram.com/reel/DYmP_3BhCkB/ | `rotated-outlines` | ✅ Done |
+| Country from rotated outline (vol. 2) | https://www.instagram.com/reel/DZcdl_1BO0l/ | `rotated-outlines-2` | ✅ Done |
+| German state from rotated outline | https://www.instagram.com/reel/DZJy5-JByLg/ | `german-states` | ✅ Done |
 
 ## Backlog
 
@@ -36,11 +38,11 @@ advance ⬜ Not done → 📝 Transcribed → ✅ Done (published quiz).
 | 13 | https://www.instagram.com/reel/DZkPfr-htHp/ | Historical artifact from a close-up crop | History | 📝 Transcribed |
 | 14 | https://www.instagram.com/reel/DZiA5SSBIem/ | World leader from title + reign dates (text only) | History | 📝 Transcribed |
 | 15 | https://www.instagram.com/reel/DZfFkp-BrpX/ | Brand from its logo | Brands | 📝 Transcribed |
-| 16 | https://www.instagram.com/reel/DZcdl_1BO0l/ | Country from rotated outline | Geography | 📝 Transcribed |
+| 16 | https://www.instagram.com/reel/DZcdl_1BO0l/ | Country from rotated outline | Geography | ✅ Done |
 | 17 | https://www.instagram.com/reel/DZU1tBiBBRu/ | Disney character from image | Pop culture | 📝 Transcribed |
 | 18 | https://www.instagram.com/reel/DZPt_lfhKz8/ | Lake from satellite image | Geography | 📝 Transcribed |
 | 19 | https://www.instagram.com/reel/DZNBArNBCp3/ | UNESCO World Heritage Site from image | Geography | 📝 Transcribed |
-| 20 | https://www.instagram.com/reel/DZJy5-JByLg/ | German federal state from rotated outline | Geography | 📝 Transcribed |
+| 20 | https://www.instagram.com/reel/DZJy5-JByLg/ | German federal state from rotated outline | Geography | ✅ Done |
 | 21 | https://www.instagram.com/reel/DZE3SuHhM4z/ | UNESCO World Heritage Site from image | Geography | 📝 Transcribed |
 | 22 | https://www.instagram.com/reel/DY7K6G9h7UQ/ | Country from its flag | Flags | 📝 Transcribed |
 | 23 | https://www.instagram.com/reel/DYw0j3eh892/ | Brand from its logo | Brands | 📝 Transcribed |

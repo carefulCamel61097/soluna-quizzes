@@ -55,6 +55,22 @@
       "count": 10,
       "thumb": "img/rotated-outlines/08.jpg",
       "source": "solunaaaa16"
+    },
+    {
+      "id": "rotated-outlines-2",
+      "title": "Name the Country from its Rotated Outline (Vol. 2)",
+      "description": "Eleven more rotated country outlines — Argentina to Poland.",
+      "count": 11,
+      "thumb": "img/rotated-outlines-2/03.jpg",
+      "source": "solunaaaa16"
+    },
+    {
+      "id": "german-states",
+      "title": "Name the German State from its Rotated Outline",
+      "description": "All rotated: 10 of Germany's federal states from their outlines.",
+      "count": 10,
+      "thumb": "img/german-states/02.jpg",
+      "source": "solunaaaa16"
     }
   ]
 }
