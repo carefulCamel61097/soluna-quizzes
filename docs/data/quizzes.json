@@ -206,6 +206,24 @@
       "count": 11,
       "thumb": "img/flags-localities/01.jpg",
       "source": "solunaaaa16"
+    },
+    {
+      "id": "languages",
+      "theme": "Languages",
+      "title": "Name the Language from a Text Sample",
+      "description": "Ten languages from one phrase each — Icelandic, Korean, Welsh and more.",
+      "count": 10,
+      "thumb": "img/languages/01.jpg",
+      "source": "solunaaaa16"
+    },
+    {
+      "id": "languages-2",
+      "theme": "Languages",
+      "title": "Name the Language from a Text Sample (Vol. 2)",
+      "description": "Ten more, from Xhosa and Georgian to Basque and Irish.",
+      "count": 10,
+      "thumb": "img/languages-2/01.jpg",
+      "source": "solunaaaa16"
     }
   ]
 }

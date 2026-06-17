@@ -1,0 +1,18 @@
+{
+  "id": "languages",
+  "title": "Name the Language from a Text Sample",
+  "source": "Quiz by solunaaaa16 (Instagram)",
+  "prompt": "What language is this?",
+  "questions": [
+    { "image": "img/languages/01.jpg", "answer": "Icelandic" },
+    { "image": "img/languages/02.jpg", "answer": "Hungarian" },
+    { "image": "img/languages/03.jpg", "answer": "Korean" },
+    { "image": "img/languages/04.jpg", "answer": "French" },
+    { "image": "img/languages/05.jpg", "answer": "Hindi" },
+    { "image": "img/languages/06.jpg", "answer": "Romanian" },
+    { "image": "img/languages/07.jpg", "answer": "Japanese" },
+    { "image": "img/languages/08.jpg", "answer": "Dutch" },
+    { "image": "img/languages/09.jpg", "answer": "Danish" },
+    { "image": "img/languages/10.jpg", "answer": "Welsh" }
+  ]
+}

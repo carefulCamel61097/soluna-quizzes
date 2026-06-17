@@ -1,0 +1,18 @@
+{
+  "id": "languages-2",
+  "title": "Name the Language from a Text Sample (Vol. 2)",
+  "source": "Quiz by solunaaaa16 (Instagram)",
+  "prompt": "What language is this?",
+  "questions": [
+    { "image": "img/languages-2/01.jpg", "answer": "Xhosa" },
+    { "image": "img/languages-2/02.jpg", "answer": "Italian" },
+    { "image": "img/languages-2/03.jpg", "answer": "Georgian" },
+    { "image": "img/languages-2/04.jpg", "answer": "Basque" },
+    { "image": "img/languages-2/05.jpg", "answer": "Luxembourgish" },
+    { "image": "img/languages-2/06.jpg", "answer": "Thai" },
+    { "image": "img/languages-2/07.jpg", "answer": "Russian" },
+    { "image": "img/languages-2/08.jpg", "answer": "Finnish" },
+    { "image": "img/languages-2/09.jpg", "answer": "Arabic" },
+    { "image": "img/languages-2/10.jpg", "answer": "Irish (Gaelic)" }
+  ]
+}
