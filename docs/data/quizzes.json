@@ -170,6 +170,42 @@
       "count": 10,
       "thumb": "img/leaders/03.jpg",
       "source": "solunaaaa16"
+    },
+    {
+      "id": "flags-countries",
+      "theme": "Flags",
+      "title": "Name the Country from its Flag",
+      "description": "Ten national flags, South Korea to Thailand.",
+      "count": 10,
+      "thumb": "img/flags-countries/01.jpg",
+      "source": "solunaaaa16"
+    },
+    {
+      "id": "flags-countries-2",
+      "theme": "Flags",
+      "title": "Name the Country from its Flag (Vol. 2)",
+      "description": "Ten more national flags, Myanmar to Kuwait.",
+      "count": 10,
+      "thumb": "img/flags-countries-2/04.jpg",
+      "source": "solunaaaa16"
+    },
+    {
+      "id": "flags-grayscale",
+      "theme": "Flags",
+      "title": "Name the Country from its Grayscale Flag",
+      "description": "Harder mode: ten national flags with all colour removed.",
+      "count": 10,
+      "thumb": "img/flags-grayscale/02.jpg",
+      "source": "solunaaaa16"
+    },
+    {
+      "id": "flags-localities",
+      "theme": "Flags",
+      "title": "Name the Locality from its Flag",
+      "description": "Cities, regions and territories — Amsterdam, Catalonia, Tibet and more.",
+      "count": 11,
+      "thumb": "img/flags-localities/01.jpg",
+      "source": "solunaaaa16"
     }
   ]
 }

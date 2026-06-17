@@ -1,0 +1,18 @@
+{
+  "id": "flags-countries-2",
+  "title": "Name the Country from its Flag (Vol. 2)",
+  "source": "Quiz by solunaaaa16 (Instagram)",
+  "prompt": "Which country's flag is this?",
+  "questions": [
+    { "image": "img/flags-countries-2/01.jpg", "answer": "Myanmar" },
+    { "image": "img/flags-countries-2/02.jpg", "answer": "Haiti" },
+    { "image": "img/flags-countries-2/03.jpg", "answer": "The Gambia" },
+    { "image": "img/flags-countries-2/04.jpg", "answer": "Kazakhstan" },
+    { "image": "img/flags-countries-2/05.jpg", "answer": "San Marino" },
+    { "image": "img/flags-countries-2/06.jpg", "answer": "Philippines" },
+    { "image": "img/flags-countries-2/07.jpg", "answer": "Togo" },
+    { "image": "img/flags-countries-2/08.jpg", "answer": "Montenegro" },
+    { "image": "img/flags-countries-2/09.jpg", "answer": "Uzbekistan" },
+    { "image": "img/flags-countries-2/10.jpg", "answer": "Kuwait" }
+  ]
+}

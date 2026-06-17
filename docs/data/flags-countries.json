@@ -1,0 +1,18 @@
+{
+  "id": "flags-countries",
+  "title": "Name the Country from its Flag",
+  "source": "Quiz by solunaaaa16 (Instagram)",
+  "prompt": "Which country's flag is this?",
+  "questions": [
+    { "image": "img/flags-countries/01.jpg", "answer": "South Korea" },
+    { "image": "img/flags-countries/02.jpg", "answer": "Belgium" },
+    { "image": "img/flags-countries/03.jpg", "answer": "Belarus" },
+    { "image": "img/flags-countries/04.jpg", "answer": "Timor-Leste (East Timor)" },
+    { "image": "img/flags-countries/05.jpg", "answer": "St. Lucia" },
+    { "image": "img/flags-countries/06.jpg", "answer": "Cabo Verde" },
+    { "image": "img/flags-countries/07.jpg", "answer": "Ecuador" },
+    { "image": "img/flags-countries/08.jpg", "answer": "Vietnam" },
+    { "image": "img/flags-countries/09.jpg", "answer": "Pakistan" },
+    { "image": "img/flags-countries/10.jpg", "answer": "Thailand" }
+  ]
+}

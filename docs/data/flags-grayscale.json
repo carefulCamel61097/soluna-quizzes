@@ -1,0 +1,18 @@
+{
+  "id": "flags-grayscale",
+  "title": "Name the Country from its Grayscale Flag",
+  "source": "Quiz by solunaaaa16 (Instagram)",
+  "prompt": "All colour removed — which country's flag is this?",
+  "questions": [
+    { "image": "img/flags-grayscale/01.jpg", "answer": "Madagascar" },
+    { "image": "img/flags-grayscale/02.jpg", "answer": "Guatemala" },
+    { "image": "img/flags-grayscale/03.jpg", "answer": "Czechia" },
+    { "image": "img/flags-grayscale/04.jpg", "answer": "Libya" },
+    { "image": "img/flags-grayscale/05.jpg", "answer": "Oman" },
+    { "image": "img/flags-grayscale/06.jpg", "answer": "Kuwait" },
+    { "image": "img/flags-grayscale/07.jpg", "answer": "Liechtenstein" },
+    { "image": "img/flags-grayscale/08.jpg", "answer": "Bangladesh" },
+    { "image": "img/flags-grayscale/09.jpg", "answer": "Thailand" },
+    { "image": "img/flags-grayscale/10.jpg", "answer": "Russia" }
+  ]
+}

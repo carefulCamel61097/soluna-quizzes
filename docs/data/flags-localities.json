@@ -1,0 +1,19 @@
+{
+  "id": "flags-localities",
+  "title": "Name the Locality from its Flag",
+  "source": "Quiz by solunaaaa16 (Instagram)",
+  "prompt": "Cities, regions and territories — whose flag is this?",
+  "questions": [
+    { "image": "img/flags-localities/01.jpg", "answer": "Amsterdam" },
+    { "image": "img/flags-localities/02.jpg", "answer": "Prussia" },
+    { "image": "img/flags-localities/03.jpg", "answer": "Catalonia" },
+    { "image": "img/flags-localities/04.jpg", "answer": "New York City" },
+    { "image": "img/flags-localities/05.jpg", "answer": "Niedersachsen (Lower Saxony)" },
+    { "image": "img/flags-localities/06.jpg", "answer": "British Antarctic Territory" },
+    { "image": "img/flags-localities/07.jpg", "answer": "Sámi people" },
+    { "image": "img/flags-localities/08.jpg", "answer": "Colorado" },
+    { "image": "img/flags-localities/09.jpg", "answer": "Paris" },
+    { "image": "img/flags-localities/10.jpg", "answer": "Transnistria" },
+    { "image": "img/flags-localities/11.jpg", "answer": "Tibet" }
+  ]
+}
