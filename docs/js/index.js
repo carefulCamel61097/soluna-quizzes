@@ -5,7 +5,7 @@
   const toggleBar = document.getElementById('theme-toggle');
   const STORE_KEY = 'soluna-marks-v1';
   // Theme display order; any unknown theme is appended after these.
-  const THEME_ORDER = ['Geography', 'History', 'Flags', 'Languages', 'Brands'];
+  const THEME_ORDER = ['Geography', 'History', 'Flags', 'Languages', 'Brands', 'Science'];
 
   // --- local storage of marks: { [quizId]: { fav: bool, done: bool } } ---
   function loadMarks() {

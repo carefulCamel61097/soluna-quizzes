@@ -242,6 +242,15 @@
       "count": 8,
       "thumb": "img/brands-2/05.jpg",
       "source": "solunaaaa16"
+    },
+    {
+      "id": "science",
+      "theme": "Science",
+      "title": "Name the Solar System Feature",
+      "description": "Ten features across the solar system — Olympus Mons, Saturn's Hexagon, Pluto's heart and more.",
+      "count": 10,
+      "thumb": "img/science/05.jpg",
+      "source": "solunaaaa16"
     }
   ]
 }

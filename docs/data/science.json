@@ -1,0 +1,18 @@
+{
+  "id": "science",
+  "title": "Name the Solar System Feature",
+  "source": "Quiz by solunaaaa16 (Instagram)",
+  "prompt": "What solar system feature is this?",
+  "questions": [
+    { "image": "img/science/01.jpg", "answer": "Olympus Mons (Mars)" },
+    { "image": "img/science/02.jpg", "answer": "Io (moon of Jupiter)" },
+    { "image": "img/science/03.jpg", "answer": "Rheasilvia (crater on Vesta)" },
+    { "image": "img/science/04.jpg", "answer": "Oceanus Procellarum (the Moon)" },
+    { "image": "img/science/05.jpg", "answer": "Saturn's Hexagon" },
+    { "image": "img/science/06.jpg", "answer": "Tombaugh Regio (Pluto's heart)" },
+    { "image": "img/science/07.jpg", "answer": "Comet Shoemaker–Levy 9 impact (Jupiter)" },
+    { "image": "img/science/08.jpg", "answer": "Mimas (moon of Saturn)" },
+    { "image": "img/science/09.jpg", "answer": "Valles Marineris (Mars)" },
+    { "image": "img/science/10.jpg", "answer": "Vredefort Crater (Earth)" }
+  ]
+}
