@@ -1,7 +1,7 @@
 # Source videos
 
 Tracking which [@solunaaaa16](https://www.instagram.com/solunaaaa16/) reels have been turned into quizzes.
-Sorted by theme. 28 quizzes published.
+Sorted by theme. 29 quizzes published.
 
 ## Published quizzes
 
@@ -11,6 +11,7 @@ Sorted by theme. 28 quizzes published.
 | Geography | Name the City from its Satellite Image (Vol. 2) | `satellite-cities-2` | https://www.instagram.com/reel/DZm8GZwhfWQ/ |
 | Geography | Name the City from its Satellite Image (Vol. 3) | `satellite-cities-3` | https://www.instagram.com/reel/DY4jIpdB18L/ |
 | Geography | Name the US City from its Satellite Image | `us-cities` | https://www.instagram.com/reel/DZXUiTHh_d3/ |
+| Geography | Name the German City from its Satellite Image | `german-cities` | https://www.instagram.com/reel/DZCbQKchAl2/ |
 | Geography | Name the Country from its Outline | `country-outlines` | https://www.instagram.com/reel/DYHtPl4h5I4/ |
 | Geography | Name the Country from its Outline (Vol. 2) | `country-outlines-2` | https://www.instagram.com/reel/DYcusjBh8xW/ |
 | Geography | Name the Country from its Rotated Outline | `rotated-outlines` | https://www.instagram.com/reel/DYmP_3BhCkB/ |
@@ -54,7 +55,7 @@ Statuses advance ⬜ Not done → 📝 Transcribed → ✅ Done (published quiz)
 | Geography | ✅ Done | UNESCO World Heritage Site from image | https://www.instagram.com/reel/DZE3SuHhM4z/ |
 | Geography | ✅ Done | Country from its outline | https://www.instagram.com/reel/DYcusjBh8xW/ |
 | Geography | ✅ Done | Island from satellite image | https://www.instagram.com/reel/DYUiGkxBTeS/ |
-| Geography | 📝 Transcribed | German city from satellite image | https://www.instagram.com/reel/DZCbQKchAl2/ |
+| Geography | ✅ Done | German city from satellite image | https://www.instagram.com/reel/DZCbQKchAl2/ |
 | History | ✅ Done | Historical figure from birth/death map | https://www.instagram.com/reel/DZH0_fvhwln/ |
 | History | ✅ Done | Historical figure from birth/death map | https://www.instagram.com/reel/DZZ6fH-BIWu/ |
 | History | ✅ Done | Famous historical figure from portrait | https://www.instagram.com/reel/DYpEoEnBvvk/ |

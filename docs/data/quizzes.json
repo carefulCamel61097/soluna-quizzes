@@ -37,6 +37,15 @@
       "source": "solunaaaa16"
     },
     {
+      "id": "german-cities",
+      "theme": "Geography",
+      "title": "Name the German City from its Satellite Image",
+      "description": "Ten German cities from above — Frankfurt, Cologne, Munich, Dresden and more.",
+      "count": 10,
+      "thumb": "img/german-cities/02.jpg",
+      "source": "solunaaaa16"
+    },
+    {
       "id": "country-outlines",
       "theme": "Geography",
       "title": "Name the Country from its Outline",

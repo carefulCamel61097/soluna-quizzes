@@ -1,0 +1,18 @@
+{
+  "id": "german-cities",
+  "title": "Name the German City from its Satellite Image",
+  "source": "Quiz by solunaaaa16 (Instagram)",
+  "prompt": "Which German city is this?",
+  "questions": [
+    { "image": "img/german-cities/01.jpg", "answer": "Frankfurt am Main" },
+    { "image": "img/german-cities/02.jpg", "answer": "Cologne (Köln)" },
+    { "image": "img/german-cities/03.jpg", "answer": "Freiburg im Breisgau" },
+    { "image": "img/german-cities/04.jpg", "answer": "Bremen" },
+    { "image": "img/german-cities/05.jpg", "answer": "Berlin" },
+    { "image": "img/german-cities/06.jpg", "answer": "Dresden" },
+    { "image": "img/german-cities/07.jpg", "answer": "Munich (München)" },
+    { "image": "img/german-cities/08.jpg", "answer": "Düsseldorf" },
+    { "image": "img/german-cities/09.jpg", "answer": "Leipzig" },
+    { "image": "img/german-cities/10.jpg", "answer": "Wiesbaden" }
+  ]
+}
