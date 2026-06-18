@@ -1,0 +1,16 @@
+{
+  "id": "brands-2",
+  "title": "Name the Brand from its Logo (Vol. 2)",
+  "source": "Quiz by solunaaaa16 (Instagram)",
+  "prompt": "What brand is this?",
+  "questions": [
+    { "image": "img/brands-2/01.jpg", "answer": "John Deere" },
+    { "image": "img/brands-2/02.jpg", "answer": "Chevron" },
+    { "image": "img/brands-2/03.jpg", "answer": "DreamWorks" },
+    { "image": "img/brands-2/04.jpg", "answer": "Atari" },
+    { "image": "img/brands-2/05.jpg", "answer": "Motorola" },
+    { "image": "img/brands-2/06.jpg", "answer": "Guinness" },
+    { "image": "img/brands-2/07.jpg", "answer": "Coach" },
+    { "image": "img/brands-2/08.jpg", "answer": "Rolex" }
+  ]
+}

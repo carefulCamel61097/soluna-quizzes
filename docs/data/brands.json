@@ -1,0 +1,17 @@
+{
+  "id": "brands",
+  "title": "Name the Brand from its Logo",
+  "source": "Quiz by solunaaaa16 (Instagram)",
+  "prompt": "What brand is this?",
+  "questions": [
+    { "image": "img/brands/01.jpg", "answer": "United Way" },
+    { "image": "img/brands/02.jpg", "answer": "Deutsche Bank" },
+    { "image": "img/brands/03.jpg", "answer": "Asics" },
+    { "image": "img/brands/04.jpg", "answer": "Marlboro" },
+    { "image": "img/brands/05.jpg", "answer": "Alibaba" },
+    { "image": "img/brands/06.jpg", "answer": "Yellow Pages" },
+    { "image": "img/brands/07.jpg", "answer": "Bic" },
+    { "image": "img/brands/08.jpg", "answer": "Airbnb" },
+    { "image": "img/brands/09.jpg", "answer": "Rolls-Royce" }
+  ]
+}

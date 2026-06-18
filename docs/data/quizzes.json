@@ -224,6 +224,24 @@
       "count": 10,
       "thumb": "img/languages-2/01.jpg",
       "source": "solunaaaa16"
+    },
+    {
+      "id": "brands",
+      "theme": "Brands",
+      "title": "Name the Brand from its Logo",
+      "description": "Nine logos to identify — Deutsche Bank, Marlboro, Airbnb, Rolls-Royce and more.",
+      "count": 9,
+      "thumb": "img/brands/02.jpg",
+      "source": "solunaaaa16"
+    },
+    {
+      "id": "brands-2",
+      "theme": "Brands",
+      "title": "Name the Brand from its Logo (Vol. 2)",
+      "description": "Eight more logos, John Deere and Chevron to Guinness and Rolex.",
+      "count": 8,
+      "thumb": "img/brands-2/05.jpg",
+      "source": "solunaaaa16"
     }
   ]
 }

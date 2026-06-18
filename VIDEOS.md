@@ -1,7 +1,7 @@
 # Source videos
 
 Tracking which [@solunaaaa16](https://www.instagram.com/solunaaaa16/) reels have been turned into quizzes.
-Sorted by theme. 25 quizzes published.
+Sorted by theme. 27 quizzes published.
 
 ## Published quizzes
 
@@ -32,6 +32,8 @@ Sorted by theme. 25 quizzes published.
 | Flags | Name the Locality from its Flag | `flags-localities` | https://www.instagram.com/reel/DY17RmdBYq7/ |
 | Languages | Name the Language from a Text Sample | `languages` | https://www.instagram.com/reel/DYEGMHABTtF/ |
 | Languages | Name the Language from a Text Sample (Vol. 2) | `languages-2` | https://www.instagram.com/reel/DYuLzr8hohR/ |
+| Brands | Name the Brand from its Logo | `brands` | https://www.instagram.com/reel/DZfFkp-BrpX/ |
+| Brands | Name the Brand from its Logo (Vol. 2) | `brands-2` | https://www.instagram.com/reel/DYw0j3eh892/ |
 
 ## All source reels
 
@@ -62,8 +64,8 @@ Statuses advance ⬜ Not done → 📝 Transcribed → ✅ Done (published quiz)
 | Flags | ✅ Done | Locality (city/region) from its flag | https://www.instagram.com/reel/DY17RmdBYq7/ |
 | Flags | ✅ Done | Country from its flag | https://www.instagram.com/reel/DY7K6G9h7UQ/ |
 | Flags | ✅ Done | Country from its flag | https://www.instagram.com/reel/DYXL-jihcV1/ |
-| Brands | 📝 Transcribed | Brand from its logo | https://www.instagram.com/reel/DZfFkp-BrpX/ |
-| Brands | 📝 Transcribed | Brand from its logo | https://www.instagram.com/reel/DYw0j3eh892/ |
+| Brands | ✅ Done | Brand from its logo | https://www.instagram.com/reel/DZfFkp-BrpX/ |
+| Brands | ✅ Done | Brand from its logo | https://www.instagram.com/reel/DYw0j3eh892/ |
 | Language | ✅ Done | Language from a text sample | https://www.instagram.com/reel/DYEGMHABTtF/ |
 | Language | ✅ Done | Language from a text sample | https://www.instagram.com/reel/DYuLzr8hohR/ |
 | Pop culture | 📝 Transcribed | Disney character from image | https://www.instagram.com/reel/DZU1tBiBBRu/ |
