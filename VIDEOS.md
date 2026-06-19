@@ -1,7 +1,8 @@
 # Source videos
 
 Tracking which [@solunaaaa16](https://www.instagram.com/solunaaaa16/) reels have been turned into quizzes.
-Sorted by theme. 29 quizzes published.
+Sorted by theme. 29 quizzes published — every source reel has now been turned into a quiz
+**except** the Pop-culture/Disney reel, which was intentionally skipped.
 
 ## Published quizzes
 
@@ -39,10 +40,11 @@ Sorted by theme. 29 quizzes published.
 
 ## All source reels
 
-Statuses advance ⬜ Not done → 📝 Transcribed → ✅ Done (published quiz).
+Statuses advance ⬜ Not done → 📝 Transcribed → ✅ Done (published quiz). ⛔ Skipped = intentionally not made.
 
 | Theme | Status | Challenge | Instagram reel |
 |-------|--------|-----------|----------------|
+| Geography | ✅ Done | City from satellite image (world) | https://www.instagram.com/reel/DYjqc1hh0SZ/ |
 | Geography | ✅ Done | City from satellite image (world) | https://www.instagram.com/reel/DY4jIpdB18L/ |
 | Geography | ✅ Done | US city from satellite image | https://www.instagram.com/reel/DZXUiTHh_d3/ |
 | Geography | ✅ Done | Country from its outline | https://www.instagram.com/reel/DYHtPl4h5I4/ |
@@ -68,6 +70,7 @@ Statuses advance ⬜ Not done → 📝 Transcribed → ✅ Done (published quiz)
 | Flags | ✅ Done | Country from its flag | https://www.instagram.com/reel/DYXL-jihcV1/ |
 | Brands | ✅ Done | Brand from its logo | https://www.instagram.com/reel/DZfFkp-BrpX/ |
 | Brands | ✅ Done | Brand from its logo | https://www.instagram.com/reel/DYw0j3eh892/ |
-| Language | ✅ Done | Language from a text sample | https://www.instagram.com/reel/DYEGMHABTtF/ |
-| Language | ✅ Done | Language from a text sample | https://www.instagram.com/reel/DYuLzr8hohR/ |
+| Languages | ✅ Done | Language from a text sample | https://www.instagram.com/reel/DYEGMHABTtF/ |
+| Languages | ✅ Done | Language from a text sample | https://www.instagram.com/reel/DYuLzr8hohR/ |
 | Science | ✅ Done | Solar System feature from image | https://www.instagram.com/reel/DYZ2MYoBKd7/ |
+| Pop culture | ⛔ Skipped | Disney character from image | https://www.instagram.com/reel/DZU1tBiBBRu/ |
