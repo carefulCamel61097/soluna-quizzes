@@ -13,9 +13,28 @@
     prevBtn: document.getElementById('prev-btn'),
     nextBtn: document.getElementById('next-btn'),
     error: document.getElementById('error'),
+    quizEnd: document.getElementById('quiz-end'),
+    doneBtn: document.getElementById('done-btn'),
   };
 
+  // Shared with the landing page: marks live in localStorage as
+  // { [quizId]: { fav: bool, done: bool } }.
+  const MARKS_KEY = 'soluna-marks-v1';
+  function loadMarks() {
+    try { return JSON.parse(localStorage.getItem(MARKS_KEY)) || {}; }
+    catch { return {}; }
+  }
+  function isDone(id) { return !!(loadMarks()[id] || {}).done; }
+  function setDone(id, value) {
+    const marks = loadMarks();
+    const m = marks[id] || { fav: false, done: false };
+    m.done = value;
+    marks[id] = m;
+    try { localStorage.setItem(MARKS_KEY, JSON.stringify(marks)); } catch {}
+  }
+
   let quiz = null;
+  let quizId = null;
   let index = 0;       // current question index
   let revealed = false;
 
@@ -24,6 +43,7 @@
   async function init() {
     const id = new URLSearchParams(location.search).get('quiz');
     if (!id) return showError('No quiz specified.');
+    quizId = id;
 
     try {
       const res = await fetch(`data/${encodeURIComponent(id)}.json`);
@@ -44,6 +64,7 @@
     els.revealBtn.addEventListener('click', reveal);
     els.prevBtn.addEventListener('click', () => go(-1));
     els.nextBtn.addEventListener('click', () => go(1));
+    els.doneBtn.addEventListener('click', toggleDone);
     document.addEventListener('keydown', onKey);
     enableSwipe(document.getElementById('stage'));
 
@@ -87,7 +108,24 @@
     els.revealBtn.hidden = false;
 
     els.prevBtn.disabled = index === 0;
-    els.nextBtn.disabled = index === quiz.questions.length - 1;
+    const onLast = index === quiz.questions.length - 1;
+    els.nextBtn.disabled = onLast;
+
+    // Offer the "mark done" panel once the player reaches the final question.
+    els.quizEnd.hidden = !onLast;
+    if (onLast) renderDone();
+  }
+
+  function renderDone() {
+    const done = isDone(quizId);
+    els.doneBtn.classList.toggle('on', done);
+    els.doneBtn.setAttribute('aria-pressed', String(done));
+    els.doneBtn.textContent = done ? '✓ Marked done · tap to undo' : '✓ Mark quiz as done';
+  }
+
+  function toggleDone() {
+    setDone(quizId, !isDone(quizId));
+    renderDone();
   }
 
   function reveal() {

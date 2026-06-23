@@ -4,8 +4,13 @@
   const container = document.getElementById('quiz-sections');
   const toggleBar = document.getElementById('theme-toggle');
   const STORE_KEY = 'soluna-marks-v1';
+  // Remembers the last filter + scroll position so returning from a quiz lands
+  // you back where you were. Per-tab (sessionStorage), cleared when the tab closes.
+  const VIEW_KEY = 'soluna-view-v1';
   // Theme display order; any unknown theme is appended after these.
   const THEME_ORDER = ['Geography', 'History', 'Flags', 'Languages', 'Brands', 'Science'];
+
+  let currentTheme = '';   // active filter chip ('' = All)
 
   // --- local storage of marks: { [quizId]: { fav: bool, done: bool } } ---
   function loadMarks() {
@@ -76,7 +81,33 @@
     }
 
     buildToggle(themes, groups, quizzes.length);
+    restoreView(themes);
   }
+
+  // Re-apply the saved filter + scroll position (if returning from a quiz).
+  function restoreView(themes) {
+    let saved;
+    try { saved = JSON.parse(sessionStorage.getItem(VIEW_KEY)); } catch { saved = null; }
+    if (!saved) return;
+    if (saved.theme && themes.includes(saved.theme)) applyFilter(saved.theme);
+    // Sections have fixed-height thumbs, so layout height is stable before the
+    // images load and this scroll lands in the right place.
+    window.scrollTo(0, saved.scrollY || 0);
+  }
+
+  function saveView() {
+    try {
+      sessionStorage.setItem(VIEW_KEY, JSON.stringify({
+        theme: currentTheme,
+        scrollY: window.scrollY,
+      }));
+    } catch {}
+  }
+  // Capture state right before navigating away (e.g. opening a quiz).
+  window.addEventListener('pagehide', saveView);
+  window.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'hidden') saveView();
+  });
 
   // Filter toggle: "All" + one chip per theme, each showing its quiz count.
   function buildToggle(themes, groups, total) {
@@ -97,6 +128,7 @@
   }
 
   function applyFilter(theme) {
+    currentTheme = theme;
     for (const btn of toggleBar.querySelectorAll('.toggle-btn')) {
       const on = btn.dataset.theme === theme;
       btn.classList.toggle('is-active', on);
